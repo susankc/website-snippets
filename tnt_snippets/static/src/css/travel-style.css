@@ -106,25 +106,23 @@ a:focus {
     top: 0;
     left: 0;
 }
-.getBookingApp {
-}
-.tab-wrap .nav-tabs {
+.form-banner-tab-wrap .nav-tabs {
     background: #fff;
     margin-bottom: 15px;
     border: none;
 }
-.tab-wrap .nav li {width: 33%;text-align: center;}
-.tab-wrap .nav-tabs .active a {
+.form-banner-tab-wrap .nav li {width: 33%;text-align: center;}
+.form-banner-tab-wrap .nav-tabs .active a {
     border-radius: 0;
     box-shadow: none;
     background: tomato;
     color: #fff;
     border-color: tomato;
 }
-.tab-wrap .nav-tabs .active a,
-.tab-wrap .nav-tabs .active a:hover,
-.tab-wrap .nav-tabs .active a:focus,
-.tab-wrap .nav-tabs .active a:active  
+.form-banner-tab-wrap .nav-tabs .active a,
+.form-banner-tab-wrap .nav-tabs .active a:hover,
+.form-banner-tab-wrap .nav-tabs .active a:focus,
+.form-banner-tab-wrap .nav-tabs .active a:active  
 {
     border-radius: 0;
     box-shadow: none;
@@ -134,7 +132,7 @@ a:focus {
 }
 
 
-.tab-wrap .nav-tabs li a, .tab-wrap .nav-tabs li a:hover, .tab-wrap .nav-tabs li a:focus {
+.form-banner-tab-wrap .nav-tabs li a, .form-banner-tab-wrap .nav-tabs li a:hover, .form-banner-tab-wrap .nav-tabs li a:focus {
     color: tomato;
     padding: 15px;
     font-weight: bold;
@@ -143,21 +141,21 @@ a:focus {
     border: none;
 }
 
-.tab-wrap input, .tab-wrap select, .tab-wra textarea {
+.form-banner-tab-wrap input, .form-banner-tab-wrap select, .tab-wra textarea {
     border-radius: 5px !important;
     box-shadow: none;
     height: 45px;
 }
-.tab-wrap .lead {
+.form-banner-tab-wrap .lead {
     font-weight: 500;
     margin-bottom: 30px;
 }
-.tab-wrap label {
+.form-banner-tab-wrap label {
     display: table-cell;
     vertical-align: middle;
 }
 
-.tab-wrap .radio input[type="radio"] {
+.form-banner-tab-wrap .radio input[type="radio"] {
     margin: 0;
     height: auto;
     vertical-align: middle;
@@ -165,19 +163,19 @@ a:focus {
     margin-top: 4px;
 }
 
-.tab-wrap .radio {
+.form-banner-tab-wrap .radio {
     vertical-align: middle;
     display: table;
 }
-.tab-wrap .nav-tabs li a i {
+.form-banner-tab-wrap .nav-tabs li a i {
     margin-right: 10px;
 }
-.tab-wrap {
+.form-banner-tab-wrap {
     background: #fff;
     padding: 26px;
 }
 
-.learn-btn, .learn-btn:hover, .learn-btn:focus {
+.form-banner-tab-wrap .learn-btn, .form-banner-tab-wrap .learn-btn:hover, .form-banner-tab-wrap .learn-btn:focus {
     background: tomato;
     color: #fff;
     font-weight: 600;
