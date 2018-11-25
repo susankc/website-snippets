@@ -1,23 +1,26 @@
 //  BOOTSTRAP GALLERY JS
 
 jQuery(document).ready(function($) {
-    $('#mygalleryCarousel').carousel({
+    $('#myCarousel').carousel({
             interval: 5000
     });
     $('[id^=carousel-selector-]').click(function () {
-    var id_selector = $(this).attr("id");
-    try {
-        var id = /-(\d+)$/.exec(id_selector)[1];
-        console.log(id_selector, id);
-        jQuery('#mygalleryCarousel').carousel(parseInt(id));
-    } catch (e) {
-        console.log('Regex failed!', e);
-    }
-});
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            $('.item.active').removeClass('active');
+            $("div").find("[data-slide-number='" + id + "']").addClass('active');
+            console.log(id_selector +','+ id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
     $('#mygalleryCarousel').on('slid.bs.carousel', function (e) {
              var id = $('.item.active').data('slide-number');
             $('#carousel-text').html($('#slide-content-'+id).html());
     });
+    console.log('Im load asmit');
 });
 
 //ISOTOPE GALLERY
