@@ -1364,7 +1364,7 @@ a:focus {
 	height: 48px;
 	background: transparent;
 	border: 1px solid #f6f4f2;
-	color: #f6f4f2;
+	/* color: #f6f4f2; */
 	min-width: 100%;
 	margin: 0;
 	border-right: none;
@@ -1377,14 +1377,14 @@ a:focus {
 .about-1-txt .btn:visited {
 	padding: 13px 30px !important;
 	border-radius: 0px !important;
-	background: #ff5800;
+	/* background: #ff5800; */
 	color: #f6f4f2;
 	outline: none;
 	box-shadow: none;
 	cursor: pointer;
 	margin-top: 32px;
 	font-weight: 500;
-	border-color: #ff5800;
+	/* border-color: #ff5800; */
 }
 
 .btn svg.cta-input__arrow {
@@ -1497,7 +1497,7 @@ a:focus {
 	height: 48px;
 	background: transparent;
 	border: 1px solid #f6f4f2;
-	color: #f6f4f2;
+	/* color: #f6f4f2; */
 	min-width: 100%;
 	margin: 0;
 	border-right: none;
@@ -1510,14 +1510,14 @@ a:focus {
 .about-2-txt .btn:visited {
 	padding: 13px 30px !important;
 	border-radius: 0px !important;
-	background: #ff5800;
-	color: #f6f4f2;
+	/* background: #ff5800; */
+	/* color: #f6f4f2; */
 	outline: none;
 	box-shadow: none;
 	cursor: pointer;
 	margin-top: 32px;
 	font-weight: 500;
-	border-color: #ff5800;
+	/* border-color: #ff5800; */
 }
 
 .btn svg.cta-input__arrow {
@@ -1630,7 +1630,7 @@ a:focus {
 	height: 48px;
 	background: transparent;
 	border: 1px solid #f6f4f2;
-	color: #f6f4f2;
+	/* color: #f6f4f2; */
 	min-width: 100%;
 	margin: 0;
 	border-right: none;
@@ -1643,14 +1643,14 @@ a:focus {
 .about-3-txt .btn:visited {
 	padding: 12px 23px !important;
 	border-radius: 0px !important;
-	background: #ff5800;
-	color: #f6f4f2;
+	/* background: #ff5800;
+	color: #f6f4f2; */
 	outline: none;
 	box-shadow: none;
 	cursor: pointer;
 	margin-top: 32px;
 	font-weight: 500;
-	border-color: #ff5700;
+	/* border-color: #ff5700; */
 }
 
 .btn svg.cta-input__arrow {
@@ -1770,14 +1770,14 @@ a:focus {
 .about-4-txt .btn:visited {
 	padding: 12px 23px !important;
 	border-radius: 0px !important;
-	background: #ff5800;
-	color: #f6f4f2;
+	/* background: #ff5800;
+	color: #f6f4f2; */
 	outline: none;
 	box-shadow: none;
 	cursor: pointer;
 	margin-top: 32px;
 	font-weight: 500;
-	border-color: #ff5700;
+	/* border-color: #ff5700; */
 }
 
 .btn svg.cta-input__arrow {
@@ -1882,14 +1882,14 @@ a:focus {
 .about-5-txt .btn:visited {
 	padding: 12px 23px !important;
 	border-radius: 0px !important;
-	background: #ff5800;
-	color: #f6f4f2;
+	/* background: #ff5800;
+	color: #f6f4f2; */
 	outline: none;
 	box-shadow: none;
 	cursor: pointer;
 	margin-top: 32px;
 	font-weight: 500;
-	border-color: #ff5700;
+	/* border-color: #ff5700; */
 }
 
 .btn svg.cta-input__arrow {
