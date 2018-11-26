@@ -63,7 +63,7 @@
                                                                     <div class="row">
                                                                         <div class="col-md-6">
                                                                             <div class="form-group">
-                                                                                <div class="radio">
+                                                                                <div class="radio ">
                                                                                     <input type="radio" name="flight" id="domestic" value="Domestic" checked="checked" />
                                                                                     <label for="domestic"><span><span></span></span>Domestic</label>
                                                                                 </div>
@@ -4248,8 +4248,192 @@
             </section>
         </template>
 
+        <!--- SLIDER 1 -->
+        <template id="s_slider_1" name="Slider 1">
+            <section  class="first-banner">
+                <div id="carousel-slider-1" class="carousel slide" data-ride="carousel-slider-1">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-1.jpg" alt="Slider 1" />
+                        <div class="overlay">
+                            <div class="carousel-caption">
+                            <h3>Welcome to Nerku Travels</h3>
+                            <h1>Travel Services</h1>
+                            <h1 class="second_heading">Creative . Professional</h1>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <a class="btn know_btn">know more</a>
+                            <a class="btn know_btn">view project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-2.jpg" alt="Slider 2" />
+                        <div class="overlay">
+                            <div class="carousel-caption">
+                            <h3>Welcome to Nerku Travels</h3>
+                            <h1>Travel Services</h1>
+                            <h1 class="second_heading">Creative . Professional</h1>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                                quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <a class="btn know_btn">know more</a>
+                            <a class="btn know_btn">view project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-slider-1" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-slider-1" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </section>
+        </template>
+
+        <!--- SLIDER 2 -->
+        <template id="s_slider_2" name="Slider 2">
+              <section class="second-banner">
+                <div id="carousel-2" class="carousel slide" data-ride="carousel-2">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-1.jpg" alt="Slider 1" />
+                            <div class="overlay">
+                                <div class="carousel-caption">
+                                <h3>Welcome to <strong>Nerku</strong></h3>
+                                <h1>We Do Business All of Time</h1>
+                                <p>- We Create <strong>Concept</strong> into the Market -</p>
+                                <a class="btn know_btn">know more</a>
+                                <a class="btn know_btn transparent-btn">view project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-2.jpg" alt="Slider 2" />
+                            <div class="overlay">
+                                <div class="carousel-caption">
+                                <h3>Welcome to <strong>Nerku</strong></h3>
+                                <h1>We Do Business All of Time</h1>
+                                <p>- We Create <strong>Concept</strong> into the Market -</p>
+                                <a class="btn know_btn">know more</a>
+                                <a class="btn know_btn transparent-btn">view project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev">
+                        <span class="fa fa-angle-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-2" role="button" data-slide="next">
+                        <span class="fa fa-angle-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </template>
+
+        <!--- SLIDER 3 -->
+        <template id="s_slider_3" name="Slider 3">
+              <section  class="third-banner">
+                <div id="carousel-3" class="carousel slide" data-ride="carousel-3">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-3.jpg" alt="Construction" />
+                        <div class="overlay">
+                            <div class="carousel-caption">
+
+                            <h1>Home Construction
+                                &amp; Remodeling</h1>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+                                commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                            <a class="btn know_btn">Learn more</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-4.jpg" alt="Construction" />
+                        <div class="overlay">
+                            <div class="carousel-caption">
+                            <h1>Home Construction
+                                &amp; Remodeling</h1>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+                                commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                            <a class="btn know_btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-3" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-3" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </section>
+        </template>
+
+        <!--- SLIDER 3 -->
+        <template id="s_slider_4" name="Slider 4">
+            <section class="fourth-banner">
+                <div id="carousel-66" class="carousel slide" data-ride="carousel-4">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-5.jpg" alt="slider 1" />
+                            <div class="overlay">
+                                <div class="carousel-caption">
+                                <h2>Nerku Tours
+                                    and Travels</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+                                    commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                <a class="btn know_btn">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="/tnt_snippets/static/src/img/travel-snippets/slider-img-4.jpg" alt="slidere 2" />
+                            <div class="overlay">
+                                <div class="carousel-caption">
+                                <h2>Nerku Tours
+                                    and Travels</h2>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed
+                                    commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                <a class="btn know_btn">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#carousel-4" role="button" data-slide="prev">
+                        <span class="fa fa-angle-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-4" role="button" data-slide="next">
+                        <span class="fa fa-angle-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </template>
+
         <template id="sinppets_extend" inherit_id="website.snippets" name="Sinppets Extend">
             <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="tnt_snippets.s_slider_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <t t-snippet="tnt_snippets.s_slider_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <t t-snippet="tnt_snippets.s_slider_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <t t-snippet="tnt_snippets.s_slider_4" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_form_banner_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_package_carousel" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
