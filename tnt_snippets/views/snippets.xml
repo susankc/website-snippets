@@ -3907,75 +3907,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="slide-wrapper">
-                                <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel"> 
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
-                                            <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                <div class="testimonial-content">
-                                                    <p>
-                                                        <i class="fa fa-quote-left"></i>
-                                                        Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.
-                                                        <i class="fa fa-quote-right"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="testimonial-name">
-                                                    <h3>Jhon Doe</h3>
-                                                </div>
-                                                <div class="designation">
-                                                    <h4>Managing Director</h4>
-                                                </div>
-                                                <div class="rating"> 
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star-o"></i> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="testimonial-info"> 
-                                                <span class="quote-icon">
-                                                    <img src="/tnt_snippets/static/src/travel-snippets/thumb-6.jpg" alt="" />
-                                                </span>
-                                                <div class="testimonial-content">
-                                                    <p>
-                                                        <i class="fa fa-quote-left"></i>
-                                                        Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.
-                                                        <i class="fa fa-quote-right"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="testimonial-name">
-                                                    <h3>Jhon Doe</h3>
-                                                </div>
-                                                <div class="designation">
-                                                    <h4>Managing Director</h4>
-                                                </div>
-                                                <div class="rating"> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star-o"></i> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                        <!-- Controls --> 
-                                        <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
-                                            <span class="fa fa-angle-left" aria-hidden="true"></span> 
-                                            <span class="sr-only">Previous</span> 
-                                        </a> 
-                                        <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next"> 
-                                            <span class="fa fa-angle-right" aria-hidden="true">
-                                            </span> <span class="sr-only">Next</span> 
-                                        </a> 
-
-                                    </div>
-                                <div class="backside"></div>
+                            <div class="getTestimonialsTow">
                             </div>
                         </div>
                     </div>
@@ -3987,56 +3919,7 @@
         <template id="s_testimonial_v_three" name="Testimonial Three">
             <section class="testimonial-v-three">
                 <div class="container">
-                    <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel"> 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <div class="no-gutters row">
-                                    <div class="col-md-4">
-                                        <div class="testimonial-intro">
-                                            <div class="thumbnail"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></div>
-                                            <div class="testimonial-name">
-                                                <h3>Jhon Doe</h3>
-                                            </div>
-                                            <div class="designation">
-                                                <h4>Managing Director</h4>
-                                            </div>
-                                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="testimonial-content">
-                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="no-gutters row">
-                                    <div class="col-md-4">
-                                        <div class="testimonial-intro">
-                                            <div class="thumbnail"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></div>
-                                            <div class="testimonial-name">
-                                                <h3>Jhon Doe</h3>
-                                            </div>
-                                            <div class="designation">
-                                                <h4>Managing Director</h4>
-                                            </div>
-                                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="testimonial-content">
-                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Controls --> 
-                        <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
-                        <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+                    <div class="getTestimonialsThree">
                     </div>
                 </div>
             </section>
@@ -4061,76 +3944,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="slide-wrapper">
-                                <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel"> 
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
-                                            <div class="row">
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="row">
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Controls --> 
-                                    <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+                                <div class="getTestimonialsFour">
                                 </div>
                             </div>
                         </div>
@@ -4241,7 +4055,8 @@
                                 </div>
                             </div>
                             <!-- Controls --> 
-                            <a class="left carousel-control" href="#carousel-example-generic4" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic4" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+                            <div class="carousel-control left" data-target="#carousel-example-generic4" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
+                            <div class="carousel-control right" data-target="#carousel-example-generic4" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div>
                         </div>
                     </div>
                 </div>
