@@ -12,9 +12,9 @@
 			<xpath expr="//script[last()]" position="after">
 				<script src="tnt_snippets/static/src/js/aos.js" />
 				<script src="tnt_snippets/static/src/js/owl.carousel.js" />
-        <script src="tnt_snippets/static/src/js/jquery.magnific-popup.min.js" />
-        <script src="tnt_snippets/static/src/js/gallery.js" />
-        <script src="tnt_snippets/static/src/js/all-snippets.js"/>
+		        <script src="tnt_snippets/static/src/js/jquery.magnific-popup.min.js" />
+		        <script src="tnt_snippets/static/src/js/gallery.js" />
+		        <script src="tnt_snippets/static/src/js/all-snippets.js"/>
 			</xpath>
 		</template>
   </data>
