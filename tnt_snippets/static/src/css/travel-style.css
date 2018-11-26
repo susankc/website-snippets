@@ -1394,7 +1394,7 @@ a:focus {
 	height: 48px;
 	background: transparent;
 	border: 1px solid #f6f4f2;
-	color: #f6f4f2;
+	/* color: #f6f4f2; */
 	min-width: 100%;
 	margin: 0;
 	border-right: none;
@@ -1527,7 +1527,7 @@ a:focus {
 	height: 48px;
 	background: transparent;
 	border: 1px solid #f6f4f2;
-	color: #f6f4f2;
+	/* color: #f6f4f2; */
 	min-width: 100%;
 	margin: 0;
 	border-right: none;
@@ -1542,6 +1542,8 @@ a:focus {
 	border-radius: 0px !important;
 	background: tomato;
 	color: #f6f4f2;
+	/* background: #ff5800; */
+	/* color: #f6f4f2; */
 	outline: none;
 	box-shadow: none;
 	cursor: pointer;
@@ -1660,7 +1662,7 @@ a:focus {
 	height: 48px;
 	background: transparent;
 	border: 1px solid #f6f4f2;
-	color: #f6f4f2;
+	/* color: #f6f4f2; */
 	min-width: 100%;
 	margin: 0;
 	border-right: none;
