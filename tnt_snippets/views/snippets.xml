@@ -1923,69 +1923,7 @@
             <section class="tourpackage">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="element-box">
-                                <div class="tour-image"> <a href="#"> <img src="/tnt_snippets/static/src/img/travel-snippets/shaouraav-shreshtha-590421-unsplash.jpg"
-                                            alt="Tour package" /> </a>
-                                    <div class="element-info">
-                                        <div class="clearfix">
-                                            <h3 class="pull-left">Nepal</h3>
-                                            <p class="time pull-right"><i class="fa fa-clock-o"></i> 4Days<span>[ Package ]</span></p>
-                                        </div>
-                                        <p class="paragraph">Li Europan lingues es membres del sam familie. Lor separat
-                                            existentie es un myth. </p>
-                                        <a href="#" class="btn btn-default btn-sm">View Detail</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="element-box">
-                                <div class="tour-image"> <a href="#"> <img src="/tnt_snippets/static/src/img/travel-snippets/aussieactive-415390-unsplash.jpg" alt="Tour package" />
-                                    </a>
-                                    <div class="element-info">
-                                        <div class="clearfix">
-                                            <h3 class="pull-left">India</h3>
-                                            <p class="time pull-right"><i class="fa fa-clock-o"></i> 4Days<span>[ Package ]</span></p>
-                                        </div>
-                                        <p class="paragraph">Li Europan lingues es membres del sam familie. Lor separat
-                                            existentie es un myth.</p>
-                                        <a href="#" class="btn btn-default btn-sm">View Detail</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="element-box">
-                                <div class="tour-image"> <a href="#"> <img src="/tnt_snippets/static/src/img/travel-snippets/daniele-salutari-351722-unsplash.jpg" alt="Tour package" />
-                                    </a>
-                                    <div class="element-info">
-                                        <div class="clearfix">
-                                            <h3 class="pull-left">Tibet</h3>
-                                            <p class="time pull-right"><i class="fa fa-clock-o"></i> 5Days<span>[ Package ]</span></p>
-                                        </div>
-                                        <p class="paragraph">Li Europan lingues es membres del sam familie. Lor separat
-                                            existentie es un myth.</p>
-                                        <a href="#" class="btn btn-default btn-sm">View Detail</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="element-box">
-                                <div class="tour-image"> <a href="#"> <img src="/tnt_snippets/static/src/img/travel-snippets/ujwal-hollica-532506-unsplash.jpg" alt="Tour package" />
-                                    </a>
-                                    <div class="element-info">
-                                        <div class="clearfix">
-                                            <h3 class="pull-left">Bhutan</h3>
-                                            <p class="time pull-right"><i class="fa fa-clock-o"></i> 6Days<span>[ Package ]</span></p>
-                                        </div>
-                                        <p class="paragraph">Li Europan lingues es membres del sam familie. Lor separat
-                                            existentie es un myth.</p>
-                                        <a href="#" class="btn btn-default btn-sm">View Detail</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="getHomeTour1">
                         </div>
                     </div>
                 </div>
@@ -1997,62 +1935,7 @@
             <section class="tourpackagevtwo">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-item">
-                                <div class="item-image"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/shaouraav-shreshtha-590421-unsplash.jpg" alt="Nepal" /></a>
-                                </div>
-                                <div class="item-content">
-                                    <h3><a href="#">Nepal Tour</a></h3>
-                                    <p class="description">Ligula ornare amet condimentum arcu cum accumsan massa fusce dis
-                                        volutpat sit dignissim</p>
-                                </div>
-                                <div class="item-footer-content">
-                                    <ul class="clearfix">
-                                        <li><i class="fa fa-clock-o"></i> 6 days</li>
-                                        <li><i class="fa fa-users"></i> 7/10</li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="View Detail"><i class="fa fa-long-arrow-right"></i>
-                                                View Detail</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-item">
-                                <div class="item-image"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/aussieactive-415390-unsplash.jpg" alt="India" /></a>
-                                </div>
-                                <div class="item-content">
-                                    <h3><a href="#">India Tour</a></h3>
-                                    <p class="description">Ligula ornare amet condimentum arcu cum accumsan massa fusce dis
-                                        volutpat sit dignissim</p>
-                                </div>
-                                <div class="item-footer-content">
-                                    <ul class="clearfix">
-                                        <li><i class="fa fa-clock-o"></i> 7 days</li>
-                                        <li><i class="fa fa-users"></i> 8/10</li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="View Detail"><i class="fa fa-long-arrow-right"></i>
-                                                View Detail</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-item">
-                                <div class="item-image"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/ujwal-hollica-532506-unsplash.jpg" alt="Bhutan" /></a>
-                                </div>
-                                <div class="item-content">
-                                    <h3><a href="#">Bhutan Tour</a></h3>
-                                    <p class="description">Ligula ornare amet condimentum arcu cum accumsan massa fusce dis
-                                        volutpat sit dignissim</p>
-                                </div>
-                                <div class="item-footer-content">
-                                    <ul class="clearfix">
-                                        <li><i class="fa fa-clock-o"></i> 10 days</li>
-                                        <li><i class="fa fa-users"></i> 7/10</li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="View Detail"><i class="fa fa-long-arrow-right"></i>
-                                                View Detail</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="getHomeTour2">
                         </div>
                     </div>
                 </div>
@@ -2064,77 +1947,7 @@
             <section class="tourpackagevthree">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="box-half-width">
-                                <div class="row">
-                                    <div class="col-md-5 col-sm-5 col-xs-5">
-                                        <div class="thumbnail"> <img src="/tnt_snippets/static/src/img/travel-snippets/shaouraav-shreshtha-590421-unsplash.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-xs-7">
-                                        <div class="tourpackage-info"> <small>Full of natural Beauty</small>
-                                            <h3><a href="#"><i class="fa fa-map-marker"></i>Nepal Tour</a></h3>
-                                            <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                                dignissim</p>
-                                            <a href="#" class="btn btn-default">View Detail</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="box-half-width">
-                                <div class="row">
-                                    <div class="col-md-5 col-sm-5 col-xs-5">
-                                        <div class="thumbnail"> <img src="/tnt_snippets/static/src/img/travel-snippets/aussieactive-415390-unsplash.jpg" alt="India" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-xs-7">
-                                        <div class="tourpackage-info"> <small>Full of natural Beauty</small>
-                                            <h3><a href="#"><i class="fa fa-map-marker"></i>India Tour</a></h3>
-                                            <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                                dignissim</p>
-                                            <a href="#" class="btn btn-default">View Detail</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="box-half-width">
-                                <div class="row">
-                                    <div class="col-md-5 col-sm-5 col-xs-5">
-                                        <div class="thumbnail"> <img src="/tnt_snippets/static/src/img/travel-snippets/daniele-salutari-351722-unsplash.jpg" alt="Tibet" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-xs-7">
-                                        <div class="tourpackage-info"> <small>Full of natural Beauty</small>
-                                            <h3><a href="#"><i class="fa fa-map-marker"></i>Tibet Tour</a></h3>
-                                            <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                                dignissim</p>
-                                            <a href="#" class="btn btn-default">View Detail</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="box-half-width">
-                                <div class="row">
-                                    <div class="col-md-5 col-sm-5 col-xs-5">
-                                        <div class="thumbnail"> <img src="/tnt_snippets/static/src/img/travel-snippets/ujwal-hollica-532506-unsplash.jpg" alt="" />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7 col-sm-7 col-xs-7">
-                                        <div class="tourpackage-info"> <small>Full of natural Beauty</small>
-                                            <h3><a href="#"><i class="fa fa-map-marker"></i>Bhutan Tour</a></h3>
-                                            <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                                dignissim</p>
-                                            <a href="#" class="btn btn-default">View Detail</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="getHomeTour3">
                         </div>
                     </div>
                 </div>
@@ -2146,42 +1959,7 @@
             <section class="tourpackagevfour">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-style">
-                                <div class="image-wrapper"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/shaouraav-shreshtha-590421-unsplash.jpg"
-                                            alt="Nepal" /></a>
-                                    <div class="box-content">
-                                        <h3><a href="#">Nepal Tour</a></h3>
-                                        <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                            dignissim</p>
-                                        <a href="#" class="btn btn-outline">Experience now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-style">
-                                <div class="image-wrapper"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/aussieactive-415390-unsplash.jpg" alt="India" /></a>
-                                    <div class="box-content">
-                                        <h3><a href="#">India Tour</a></h3>
-                                        <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                            dignissim</p>
-                                        <a href="#" class="btn btn-outline">Experience now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-style">
-                                <div class="image-wrapper"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/daniele-salutari-351722-unsplash.jpg" alt="Tibet" /></a>
-                                    <div class="box-content">
-                                        <h3><a href="#">Tibet Tour</a></h3>
-                                        <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                            dignissim</p>
-                                        <a href="#" class="btn btn-outline">Experience now</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="getHomeTour4">
                         </div>
                     </div>
                 </div>
@@ -2193,42 +1971,7 @@
             <section class="tourpackagevfive">
                 <div class="container">
                     <div class="row no-gutters">
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-style">
-                                <div class="image-wrapper"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/shaouraav-shreshtha-590421-unsplash.jpg"
-                                            alt="Nepal" /></a>
-                                    <div class="box-content">
-                                        <h3><a href="#">Nepal Tour</a></h3>
-                                        <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                            dignissim</p>
-                                        <a href="#" class="btn btn-outline">Experience now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-style">
-                                <div class="image-wrapper"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/aussieactive-415390-unsplash.jpg" alt="India" /></a>
-                                    <div class="box-content">
-                                        <h3><a href="#">India Tour</a></h3>
-                                        <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                            dignissim</p>
-                                        <a href="#" class="btn btn-outline">Experience now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">
-                            <div class="box-style">
-                                <div class="image-wrapper"> <a href="#"><img src="/tnt_snippets/static/src/img/travel-snippets/daniele-salutari-351722-unsplash.jpg" alt="Tibet" /></a>
-                                    <div class="box-content">
-                                        <h3><a href="#">Tibet Tour</a></h3>
-                                        <p>Ligula ornare amet condimentum arcu cum accumsan massa fusce dis volutpat sit
-                                            dignissim</p>
-                                        <a href="#" class="btn btn-outline">Experience now</a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="getHomeTour5">
                         </div>
                     </div>
                 </div>
@@ -3200,75 +2943,7 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                            <div class="slide-wrapper">
-                                <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel"> 
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
-                                            <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                <div class="testimonial-content">
-                                                    <p>
-                                                        <i class="fa fa-quote-left"></i>
-                                                        Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.
-                                                        <i class="fa fa-quote-right"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="testimonial-name">
-                                                    <h3>Jhon Doe</h3>
-                                                </div>
-                                                <div class="designation">
-                                                    <h4>Managing Director</h4>
-                                                </div>
-                                                <div class="rating"> 
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star-o"></i> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="testimonial-info"> 
-                                                <span class="quote-icon">
-                                                    <img src="/tnt_snippets/static/src/travel-snippets/thumb-6.jpg" alt="" />
-                                                </span>
-                                                <div class="testimonial-content">
-                                                    <p>
-                                                        <i class="fa fa-quote-left"></i>
-                                                        Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.
-                                                        <i class="fa fa-quote-right"></i>
-                                                    </p>
-                                                </div>
-                                                <div class="testimonial-name">
-                                                    <h3>Jhon Doe</h3>
-                                                </div>
-                                                <div class="designation">
-                                                    <h4>Managing Director</h4>
-                                                </div>
-                                                <div class="rating"> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star"></i> 
-                                                    <i class="fa fa-star-o"></i> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                        <!-- Controls --> 
-                                        <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
-                                            <span class="fa fa-angle-left" aria-hidden="true"></span> 
-                                            <span class="sr-only">Previous</span> 
-                                        </a> 
-                                        <a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next"> 
-                                            <span class="fa fa-angle-right" aria-hidden="true">
-                                            </span> <span class="sr-only">Next</span> 
-                                        </a> 
-
-                                    </div>
-                                <div class="backside"></div>
+                            <div class="getTestimonialsTow">
                             </div>
                         </div>
                     </div>
@@ -3280,56 +2955,7 @@
         <template id="s_testimonial_v_three" name="Testimonial Three">
             <section class="testimonial-v-three">
                 <div class="container">
-                    <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel"> 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <div class="no-gutters row">
-                                    <div class="col-md-4">
-                                        <div class="testimonial-intro">
-                                            <div class="thumbnail"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></div>
-                                            <div class="testimonial-name">
-                                                <h3>Jhon Doe</h3>
-                                            </div>
-                                            <div class="designation">
-                                                <h4>Managing Director</h4>
-                                            </div>
-                                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="testimonial-content">
-                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="no-gutters row">
-                                    <div class="col-md-4">
-                                        <div class="testimonial-intro">
-                                            <div class="thumbnail"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></div>
-                                            <div class="testimonial-name">
-                                                <h3>Jhon Doe</h3>
-                                            </div>
-                                            <div class="designation">
-                                                <h4>Managing Director</h4>
-                                            </div>
-                                            <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="testimonial-content">
-                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- Controls --> 
-                        <a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
-                        <a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+                    <div class="getTestimonialsThree">
                     </div>
                 </div>
             </section>
@@ -3354,76 +2980,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="slide-wrapper">
-                                <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel"> 
-                                    <!-- Wrapper for slides -->
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="item active">
-                                            <div class="row">
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="row">
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-xs-6">
-                                                    <div class="testimonial-info"> <span class="quote-icon"><img src="/tnt_snippets/static/src/img/travel-snippets/thumb-6.jpg" alt="" /></span>
-                                                        <div class="testimonial-content">
-                                                            <p><i class="fa fa-quote-left"></i>Duis non condimentum nunc. Nunc quis turpis eu est tincidunt rutrum. Cras a purus quis sem tincidunt egestas vel id lacus. Nunc sed volutpat erat. Duis sollicitudin.<i class="fa fa-quote-right"></i></p>
-                                                        </div>
-                                                        <div class="testimonial-name">
-                                                            <h3>Jhon Doe</h3>
-                                                        </div>
-                                                        <div class="designation">
-                                                            <h4>Managing Director</h4>
-                                                        </div>
-                                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Controls --> 
-                                    <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+                                <div class="getTestimonialsFour">
                                 </div>
                             </div>
                         </div>
@@ -3534,7 +3091,8 @@
                                 </div>
                             </div>
                             <!-- Controls --> 
-                            <a class="left carousel-control" href="#carousel-example-generic4" role="button" data-slide="prev"> <span class="fa fa-angle-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic4" role="button" data-slide="next"> <span class="fa fa-angle-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+                            <div class="carousel-control left" data-target="#carousel-example-generic4" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
+                            <div class="carousel-control right" data-target="#carousel-example-generic4" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div>
                         </div>
                     </div>
                 </div>
@@ -3729,10 +3287,6 @@
                 <t t-snippet="tnt_snippets.s_slider_4" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_form_banner_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_package_carousel" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
-                <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
-                <t t-snippet="tnt_snippets.s_newsletter_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
-                <t t-snippet="tnt_snippets.s_newsletter_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
-                <t t-snippet="tnt_snippets.s_newsletter_4" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
                 <t t-snippet="tnt_snippets.s_trekking_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/trekking-box-1.jpg" />
                 <t t-snippet="tnt_snippets.s_trekking_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/trekking-box-2.jpg" />
                 <t t-snippet="tnt_snippets.s_trekking_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/trekking-box-3.jpg" />
@@ -3767,6 +3321,12 @@
                 <t t-snippet="tnt_snippets.s_testimonial_v_three" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_four" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_five" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
+            </xpath>
+            <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
+                <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
+                <t t-snippet="tnt_snippets.s_newsletter_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
+                <t t-snippet="tnt_snippets.s_newsletter_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
+                <t t-snippet="tnt_snippets.s_newsletter_4" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
             </xpath>
         </template>
     </data>

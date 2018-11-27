@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <t t-name="testimonials_tow">
+        <div class="slide-wrapper">
+            <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel"> 
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <t t-foreach="widget.testimonials" t-as="testimonial">
+                        <t t-if="testimonial_first">
+                            <div class="item active">
+                                <div class="testimonial-info"> <span class="quote-icon"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></span>
+                                    <div class="testimonial-content">
+                                        <p>
+                                            <t t-esc="testimonial.review"/>
+                                        </p>
+                                    </div>
+                                    <div class="testimonial-name">
+                                        <h3><t t-esc="testimonial.nick_name"/></h3>
+                                    </div>
+                                    <div class="designation">
+                                        <h4><t t-esc="testimonial.designation"/></h4>
+                                    </div>
+                                    <div class="rating"> 
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i> 
+                                        <i class="fa fa-star"></i> 
+                                        <i class="fa fa-star-o"></i> 
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                        <t t-else="">
+                            <div class="item">
+                                <div class="testimonial-info"> 
+                                    <span class="quote-icon">
+                                        <img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" />
+                                    </span>
+                                    <div class="testimonial-content">
+                                        <p>
+                                            <t t-esc="testimonial.review"/>
+                                        </p>
+                                    </div>
+                                    <div class="testimonial-name">
+                                        <h3><t t-esc="testimonial.nick_name"/></h3>
+                                    </div>
+                                    <div class="designation">
+                                        <h4><t t-esc="testimonial.designation"/></h4>
+                                    </div>
+                                    <div class="rating"> 
+                                        <i class="fa fa-star"></i> 
+                                        <i class="fa fa-star"></i> 
+                                        <i class="fa fa-star"></i> 
+                                        <i class="fa fa-star"></i> 
+                                        <i class="fa fa-star-o"></i> 
+                                    </div>
+                                </div>
+                            </div>
+                        </t>                        
+                    </t>
+                </div>
+
+                <!-- Controls --> 
+                <div class="carousel-control left" data-target="#carousel-example-generic1" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
+                <div class="carousel-control right" data-target="#carousel-example-generic1" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div>
+
+                </div>
+            <div class="backside"></div>
+        </div>        
+    </t>
+    <t t-name="testimonials_three">
+        <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel"> 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <t t-foreach="widget.testimonials" t-as="testimonial">
+                    <t t-if="testimonial_first">
+                        <div class="item active">
+                            <div class="no-gutters row">
+                                <div class="col-md-4">
+                                    <div class="testimonial-intro">
+                                        <div class="thumbnail"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></div>
+                                        <div class="testimonial-name">
+                                            <h3><t t-esc="testimonial.nick_name"/></h3>
+                                        </div>
+                                        <div class="designation">
+                                            <h4><t t-esc="testimonial.designation"/></h4>
+                                        </div>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="testimonial-content">
+                                        <p><i class="fa fa-quote-left"></i><t t-esc="testimonial.review"/><i class="fa fa-quote-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                    <t t-else="">
+                        <div class="item">
+                            <div class="no-gutters row">
+                                <div class="col-md-4">
+                                    <div class="testimonial-intro">
+                                        <div class="thumbnail"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></div>
+                                        <div class="testimonial-name">
+                                            <h3><t t-esc="testimonial.nick_name"/></h3>
+                                        </div>
+                                        <div class="designation">
+                                            <h4><t t-esc="testimonial.designation"/></h4>
+                                        </div>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="testimonial-content">
+                                        <p><i class="fa fa-quote-left"></i><t t-esc="testimonial.review"/><i class="fa fa-quote-right"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>                    
+                </t>
+            </div>
+            
+            <!-- Controls --> 
+            <div class="carousel-control left" data-target="#carousel-example-generic2" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
+            <div class="carousel-control right" data-target="#carousel-example-generic2" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div> 
+        </div>
+    </t>
+    <t t-name="testimonials_four">
+        <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel"> 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <t t-foreach="widget.testimonials" t-as="testimonial">
+                    <t t-if="testimonial_first">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6">
+                                    <div class="testimonial-info"> <span class="quote-icon"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></span>
+                                        <div class="testimonial-content">
+                                            <p><i class="fa fa-quote-left"></i><t t-esc="testimonial.review"/><i class="fa fa-quote-right"></i></p>
+                                        </div>
+                                        <div class="testimonial-name">
+                                            <h3><t t-esc="testimonial.nick_name"/></h3>
+                                        </div>
+                                        <div class="designation">
+                                            <h4><t t-esc="testimonial.designation"/></h4>
+                                        </div>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xs-6">
+                                    <div class="testimonial-info"> <span class="quote-icon"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></span>
+                                        <div class="testimonial-content">
+                                            <p><i class="fa fa-quote-left"></i><t t-esc="testimonial.review"/><i class="fa fa-quote-right"></i></p>
+                                        </div>
+                                        <div class="testimonial-name">
+                                            <h3><t t-esc="testimonial.nick_name"/></h3>
+                                        </div>
+                                        <div class="designation">
+                                            <h4><t t-esc="testimonial.designation"/></h4>
+                                        </div>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>                
+                    <t t-else="">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6 col-xs-6">
+                                    <div class="testimonial-info"> <span class="quote-icon"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></span>
+                                        <div class="testimonial-content">
+                                            <p><i class="fa fa-quote-left"></i><t t-esc="testimonial.review"/><i class="fa fa-quote-right"></i></p>
+                                        </div>
+                                        <div class="testimonial-name">
+                                            <h3><t t-esc="testimonial.nick_name"/></h3>
+                                        </div>
+                                        <div class="designation">
+                                            <h4><t t-esc="testimonial.designation"/></h4>
+                                        </div>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-xs-6">
+                                    <div class="testimonial-info"> <span class="quote-icon"><img t-attf-src="/web/image/tnt.testimonial/{{testimonial.id}}/testimonial_image" alt="avatar" /></span>
+                                        <div class="testimonial-content">
+                                            <p><i class="fa fa-quote-left"></i><t t-esc="testimonial.review"/><i class="fa fa-quote-right"></i></p>
+                                        </div>
+                                        <div class="testimonial-name">
+                                            <h3><t t-esc="testimonial.nick_name"/></h3>
+                                        </div>
+                                        <div class="designation">
+                                            <h4><t t-esc="testimonial.designation"/></h4>
+                                        </div>
+                                        <div class="rating"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </div>
+            <!-- Controls --> 
+            <div class="carousel-control left" data-target="#carousel-example-generic3" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
+            <div class="carousel-control right" data-target="#carousel-example-generic3" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div>
+        </div>
+    </t>
+</templates>
