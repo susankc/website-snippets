@@ -221,7 +221,8 @@ a:focus {
 .form-banner-1-caption h2 {
     color: #fff;
     font-weight: bold;
-    font-size: 40px;
+	font-size: 40px;
+	margin-bottom: 15px;
 }
 
 .form-banner-1-caption p {
@@ -232,6 +233,18 @@ a:focus {
 .form-banner-1-caption {
     padding-top: 100px;
 }
+
+
+@media only screen and (max-width: 1080px) {}
+@media only screen and (max-width: 980px) {}
+@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 600px) {
+	.form-banner-1 .getBookingApp .nav-tabs li {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 480px) {}
 
 /*=============== TOUR PACKAGE CAROUSEL ===============*/
 
@@ -746,7 +759,11 @@ a:focus {
 	width: 100%;
 	top: 0;
 }
-
+.trekkng-1 .trekking-overlay-texts {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
 .seprator-1 {
 	width: 40px;
 	height: 5px;
@@ -772,9 +789,7 @@ a:focus {
 	padding: 0;
 }
 
-.trekking-overlay-texts {
-	padding: 250px 45px;
-}
+
 
 .trekking-1-box img {
 	width: 100%;
@@ -798,7 +813,11 @@ a:focus {
 	top: 0;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 50%, rgba(0, 4, 29, 0.9) 99%, rgba(0, 8, 21, 0.96) 100%);
 }
-
+.trekkng-2 .trekking-overlay-texts {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
 .seprator-1 {
 	width: 40px;
 	height: 5px;
@@ -822,10 +841,6 @@ a:focus {
 .trekking-img-overlay p+p {
 	margin: 0 !important;
 	padding: 0;
-}
-
-.trekking-overlay-texts {
-	padding: 250px 45px;
 }
 
 .trekking-2-box img {
@@ -850,6 +865,7 @@ a:focus {
 	max-height: 300px;
 	overflow: hidden;
 }
+
 
 .trekking-3-section img {
 	width: 100%;
@@ -933,15 +949,19 @@ a:focus {
 
 .trekking-3-image-overlay {
 	position: absolute;
-	top: 0;
-	width: 100%;
-	bottom: 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.63) 99%, rgba(0, 0, 0, 0.5) 100%);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.63) 99%, rgba(0, 0, 0, 0.5) 100%);
 }
 
+
 .trekking-3-image-overlay .trekking-3-overlay-content {
-	padding: 170px 20px;
 	color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
 }
 
 .trekking-3-image-overlay .trekking-3-overlay-content h3 {
@@ -973,7 +993,9 @@ a:focus {
 
 .trekking_3_box {
 	margin-bottom: 30px;
+	position: relative;
 }
+
 
 
 /* RESPONSIVE */
@@ -1281,13 +1303,16 @@ a:focus {
 	position: absolute;
 	top: 0;
 	width: 100%;
+	height: 100%;
 	bottom: 0;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.63) 99%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .trekking-5-image-overlay .trekking-5-overlay-content {
-	padding: 226px 20px;
 	color: #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 18px;
 }
 
 .trekking-5-image-overlay .trekking-5-overlay-content h3 {
