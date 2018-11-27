@@ -4353,14 +4353,18 @@ a:focus {
     	margin-bottom: 10px;
 	}
 	.first-banner .carousel-caption h1 {
-		font-size: 60px;
-    	line-height: 52px;
+		font-size: 50px;
+    	line-height: 42px;
 	}
 	.first-banner .carousel-caption h1.second_heading{
 		margin-bottom: 0px;
 	}
 	.first-banner .carousel-caption > p {
 		display: none;
+	}
+	.first-banner .carousel-caption {
+		left: 20%;
+		right: 20%;
 	}
 
 }
@@ -4411,7 +4415,7 @@ a:focus {
 		height: auto;
 	}
 	.first-banner .carousel-caption > h3 {
-		font-size: 18px;
+		font-size: 14px;
 	}
 	.first-banner .carousel-caption h1 {
 		font-size: 18px;
@@ -4421,7 +4425,9 @@ a:focus {
 	.first-banner .carousel-caption h1.second_heading{
 		margin-bottom: 0px;
 	}
-	
+	.first-banner .carousel-caption {
+		top: 0;
+	}	
 }
 
 /*=============== SLIDER 2 ===============*/
@@ -4500,7 +4506,6 @@ a:focus {
     text-align: center;
     margin-top:-25px;
     top:50%;
-    /* opacity: 1; */
     background: #080f13;
     border-radius: 50%;
 }
@@ -4519,12 +4524,22 @@ a:focus {
 	.second-banner .carousel-caption h1.second_heading{
 		margin-bottom: 0px;
 	}
-	.second-banner .carousel-caption > p {
-		display: none;
+	.second-banner .carousel-caption {
+		left: 20%;
+		right: 20%;
 	}
-
 }
-@media only screen and (max-width: 920px) {}
+@media only screen and (max-width: 920px) {
+	.second-banner .carousel-caption h1 {
+		margin-bottom: 8px;
+		font-size: 30px;
+		margin-top: 8px;
+	}
+	.second-banner .carousel-caption > p {
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.second-banner .carousel {
 		height: auto;
@@ -4534,14 +4549,8 @@ a:focus {
     	margin-bottom: 10px;
 	}
 	.second-banner .carousel-caption h1 {
-		font-size: 60px;
-    	line-height: 50px;
-	}
-	.second-banner .carousel-caption > p {
-		display: none;
-	}
-	.second-banner .carousel-caption .btn{
-		display: none;
+		font-size: 29px;
+    	line-height: 35px;
 	}
 }
 @media only screen and (max-width: 600px) {
@@ -4559,27 +4568,28 @@ a:focus {
 	.second-banner .carousel-caption h1.second_heading{
 		margin-bottom: 0px;
 	}
-	.second-banner .carousel-caption > p {
-		display: none;
+	.second-banner .carousel-caption {
+		top: 25px;
 	}
-	.second-banner .carousel-caption .btn{
-		display: none;
-	}
+
 }
 @media only screen and (max-width: 480px) {
 	.second-banner .carousel {
 		height: auto;
 	}
-	.second-banner.carousel-caption > h3 {
-		font-size: 18px;
+	.second-banner .carousel-caption  h3 {
+		font-size: 18px !important;
 	}
 	.second-banner .carousel-caption h1 {
-		font-size: 18px;
+		font-size: 22px;
 		margin-bottom: 0px;
 		line-height: 23px;
 	}
-	.second-banner.carousel-caption h1.second_heading{
-		margin-bottom: 0px;
+	.second-banner .carousel-caption > p {
+		display: none;
+	}
+	.second-banner .carousel-caption .btn.know_btn {
+		display: none;
 	}
 	
 }
@@ -4669,12 +4679,80 @@ a:focus {
     top:50%;
     background: #0e1012;
 }
-@media only screen and (max-width: 1080px){}
-@media only screen and (max-width: 920px) {}
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 1080px){
+	.third-banner .carousel {
+		height: auto;
+	}
+	.third-banner .carousel-caption > h3 {
+		font-size: 26px;
+    	margin-bottom: 10px;
+	}
+	.third-banner .carousel-caption h1 {
+		font-size: 45px;
+    	line-height: 45px;
+	}
+	.third-banner .carousel-caption h1.second_heading{
+		margin-bottom: 0px;
+	}
+	.third-banner .carousel-caption {
+		top: 25px;
+	}
+	.third-banner .carousel-caption {
+		left: 20%;
+		right: 20%;
+	}
+}
+@media only screen and (max-width: 920px) {
+}
+@media only screen and (max-width: 768px) {
+	.third-banner .carousel {
+		height: auto;
+	}
+	.third-banner .carousel-caption > h3 {
+		font-size: 26px;
+    	margin-bottom: 10px;
+	}
+	.third-banner .carousel-caption h1 {
+		font-size: 29px;
+    	line-height: 35px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.third-banner .carousel {
+		height: auto;
+	}
+	.third-banner .carousel-caption > h3 {
+		font-size: 23px;
+		margin-bottom: 0px;
+	}
+	.third-banner .carousel-caption h1 {
+		font-size: 34px;
+		line-height: 36px;
+	}
+	.third-banner .carousel-caption h1.second_heading{
+		margin-bottom: 0px;
+	}
+
+}
 @media only screen and (max-width: 480px) {
-	
+	.third-banner .carousel {
+		height: auto;
+	}
+	.third-banner .carousel-caption  h3 {
+		font-size: 18px !important;
+	}
+	.third-banner .carousel-caption h1 {
+		font-size: 22px;
+		margin-bottom: 0px;
+		line-height: 23px;
+	}
+	.third-banner .carousel-caption > p {
+		display: none;
+	}
+	.third-banner .carousel-caption .btn.know_btn {
+		display: none;
+	}
+
 }
 
 
@@ -4758,10 +4836,99 @@ a:focus {
     top:50%;
     background: #0e1012;
 }
-@media only screen and (max-width: 1080px){}
-@media only screen and (max-width: 920px) {}
-@media only screen and (max-width: 768px) {}
-@media only screen and (max-width: 600px) {}
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px){
+	.fourth-banner .carousel {
+		height: auto;
+	}
+	.fourth-banner .carousel-caption > h3 {
+		font-size: 26px;
+    	margin-bottom: 10px;
+	}
+	.fourth-banner .carousel-caption h1 {
+		font-size: 60px;
+    	line-height: 52px;
+	}
+	.fourth-banner .carousel-caption h1.second_heading{
+		margin-bottom: 0px;
+	}
+
+	.fourth-banner .carousel-caption {
+		left: 14%;
+		
+	}
+
+}
+@media only screen and (max-width: 920px) {
+	.fourth-banner .carousel-caption {
+    	top: 30px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.fourth-banner .carousel {
+		height: auto;
+	}
+	.fourth-banner .carousel-caption > h3 {
+		font-size: 26px;
+    	margin-bottom: 10px;
+	}
+	.fourth-banner .carousel-caption h1 {
+		font-size: 60px;
+    	line-height: 50px;
+	}
+	.fourth-banner .carousel-caption {
+		width: 70%;
+    	top: 30px;
+    	left: 14%;
+	}
+
+}
+@media only screen and (max-width: 600px) {
+	.fourth-banner .carousel {
+		height: auto;
+	}
+	.fourth-banner .carousel-caption > h3 {
+		font-size: 23px;
+		margin-bottom: 0px;
+	}
+	.fourth-banner .carousel-caption h1 {
+		font-size: 34px;
+		line-height: 36px;
+	}
+	.fourth-banner .carousel-caption h1.second_heading{
+		margin-bottom: 0px;
+	}
+	.fourth-banner .carousel-caption .btn{
+		display: none;
+	}
+	.fourth-banner .carousel-caption {
+		width: 70%;
+    	top: 20%;
+    	left: 6%;
+	}
+	.fourth-banner .carousel-caption  h2 {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
 	
+}
+@media only screen and (max-width: 480px) {
+	.fourth-banner .carousel-caption {
+		top:-20px;
+		left: 20px;
+	}
+
+	.fourth-banner .carousel {
+		height: auto;
+	}
+
+	.fourth-banner .carousel-caption p {
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.fourth-banner .carousel-caption {
+		width: 90%;
+	}
+	.fourth-banner .carousel-caption h2 {
+		line-height: 25px;
+	}
 }
