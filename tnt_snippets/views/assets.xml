@@ -15,6 +15,7 @@
 		        <script src="tnt_snippets/static/src/js/jquery.magnific-popup.min.js" />
 		        <script src="tnt_snippets/static/src/js/gallery.js" />
 		        <script src="tnt_snippets/static/src/js/all-snippets.js"/>
+		        <script src="tnt_snippets/static/src/js/package_carousel.js"/>
 			</xpath>
 		</template>
   </data>

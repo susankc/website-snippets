@@ -1337,7 +1337,7 @@
            <section class="product_carousel">
                 <div class="container">
                     <div class="row">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-carousel1 owl-theme">
                             <!-- Item -->
                             <div class="item">
                                 <div class="product_carousel_item">
@@ -2864,7 +2864,7 @@
 
         <!--- TESTIMONIAL ONE -->
         <template id="s_testimonials" name="Testimonial One">
-           <section class="testimonials">
+           <section class="testimonials-one">
                <div class="container">
                    <div class="carousel-wrapper">
                        <div class="cover-img hidden-xs"> 

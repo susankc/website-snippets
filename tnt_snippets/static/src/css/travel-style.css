@@ -14,6 +14,11 @@ body {
 	position: relative;
 	overflow-x: hidden;
 }
+/*Added*/
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+/*Added*/
 .intro {
     display: table;
     margin: auto;
@@ -3586,7 +3591,7 @@ a:focus {
 	padding: 0;
 }
 
-.testimonial .item .testimonial-info {
+.testimonials-one .item .testimonial-info {
 	position: absolute;
 	top: auto;
 	bottom: 0;
@@ -3625,10 +3630,12 @@ a:focus {
 	filter: invert(1);
 }
 
-.testimonial-info {
+
+.testimonials-one .testimonial-info {
 	background-color: #2f3032;
 	color: #fff;
 	padding: 30px 30px 80px 30px;
+	position: static!important;
 }
 
 .testimonial-name h3 {
@@ -3636,7 +3643,9 @@ a:focus {
 	margin-bottom: 7px;
 	text-transform: uppercase;
 }
-
+.testimonial .carousel {
+	overflow: inherit;
+}
 .designation h4 {
 	font-size: 14px;
 	font-weight: normal;
