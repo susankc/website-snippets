@@ -4971,3 +4971,220 @@ a:focus {
 		line-height: 25px;
 	}
 }
+
+/*========== RAFTING ONE ===========*/
+.travel-panel{
+    font-family: poppins;
+}
+.travel-panel .panel-heading {
+    padding: 0;
+    background: white;
+    border-radius: 0px;
+    border: 1px solid #eee;
+}
+.travel-panel .panel{
+    border:none;
+}
+
+.travel-panel .panel-heading:hover .panel-title  a i{
+    color:#fff;
+}
+.travel-panel .panel-heading .panel-title  a {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+}
+.travel-panel .panel {
+    border-radius: 0px;
+}
+.travel-panel .panel-heading .panel-title a i {
+    color: tomato;
+    margin-right: 10px;
+}
+.travel-panel p {
+    font-size: 15px !important;
+    line-height: 25px !important;
+}
+.travel-panel .panel-body {
+    border-top: none !important;
+}
+
+.rafing-info{
+    font-family: poppins;
+}
+.travel-panel .panel-default .panel-heading h4 a:after{
+	background-color: tomato;
+}
+
+/*========== RAFTING TWO ===========*/
+.itenary {
+    border: 1px solid #eee;
+    padding: 12px 30px 30px;
+    margin: 35px 0;
+}
+.itenary .panel-default .panel-heading h4 a:before{
+	display: none !important;
+}
+.itenary .panel-default .panel-heading h4 a:after{
+	display: none !important;
+}
+span.day-count {
+    text-align: center;
+    width: 48px;
+    background: tomato;
+    position: absolute;
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    display: table;
+    height: 51px;
+    vertical-align: middle;
+}
+.rafing-info{
+    font-family: poppins;
+}
+.rafing-info .panel-heading {
+    padding: 0;
+    background: white;
+    border-radius: 0px;
+    border: none;
+}
+.rafing-info .panel{
+    border:none;
+}
+
+.rafing-info .panel-heading .panel-title  a {
+    display: block;
+    padding: 8px 65px;
+    font-weight: bold;
+    position: relative;
+}
+.rafing-info .panel {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    box-shadow: none;
+}
+.rafing-info .panel-heading .panel-title a i {
+    color: tomato;
+    margin-right: 10px;
+}
+.rafing-info p {
+    font-size: 15px;
+}
+.rafing-info .panel-body {
+    border-top: none !important;
+    padding: 15px 65px;
+}
+
+.rafing-info{
+    font-family: poppins;
+}
+.rafing-info .panel-heading .panel-title a small {
+    display: block;
+    margin-bottom: 6px;
+}
+.day-count span {
+    display: table-cell;
+    vertical-align: middle;
+}
+.rafing-info h3 {
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.cost-include li {
+    list-style: none;
+    margin: 4px 0;
+    position: relative;
+    padding-left: 30px;
+}
+.cost-excludes li {
+    list-style: none;
+    margin: 3px 0px;
+    position: relative;
+    padding-left: 30px;
+}
+.cost-include li:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0px;
+    color: tomato;
+}
+.cost-include {
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.cost-excludes li:before {
+    font-family: FontAwesome;
+    content: "\f00d";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0px;
+    color: tomato;
+}
+.cost-excludes {
+    padding: 0;
+}
+
+.rafing-info h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.rafting-itinerary-sidebar {
+}
+
+.trip-highlights li {
+    list-style: none;
+    margin: 4px 0;
+    position: relative;
+    padding-left: 30px;
+}
+.trip-highlights li {
+    list-style: none;
+    margin: 12px 0px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.trip-highlights li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0px;
+    color: #ff6240;
+    font-weight: bold;
+}
+.trip-highlights {
+    margin-bottom: 40px;
+    background: #fafeff;
+    padding: 30px;
+    color: #353535;
+}
+.rafting-itinerary-sidebar h4 {
+    background: tomato;
+    color: #fff;
+    margin: 0;
+    padding: 22px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.itenary .panel-default .panel-heading+.panel-collapse .panel-body p {
+    line-height: 25px !important;
+    font-size: 15px !important;
+}
+.itenary .panel-default>.panel-heading h4 a{
+	background-color:transparent !important;
+}
