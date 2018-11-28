@@ -5028,7 +5028,7 @@ a:focus {
 /*========== RAFTING TWO ===========*/
 .itenary {
     border: 1px solid #eee;
-    padding: 12px 30px 30px;
+    padding: 30px 30px 30px;
     margin: 35px 0;
 }
 .itenary .panel-default .panel-heading h4 a:before{
@@ -5084,7 +5084,7 @@ span.day-count {
 }
 .rafing-info .panel-body {
     border-top: none !important;
-    padding: 15px 65px;
+    padding: 15px 65px !important;
 }
 
 .rafing-info{
