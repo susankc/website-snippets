@@ -36,11 +36,9 @@
 		            </select>
 		            <select class="form-control" id="flight1fromCountry">
 		                <option></option>
-		                <option>Kathmandu</option>
-		                <option>Pokhara</option>
-		                <option>Biratnagar</option>
-		                <option>Janakpur</option>
-		                <option>Palpa</option>
+		                <t t-foreach="widget.countries" t-as="country">
+                           <option t-att-value="country.id"><t t-esc="country.name"/></option>
+                       </t>
 		            </select>
 		        </div>
 		        <div class="form-group col-md-4">
@@ -354,6 +352,12 @@
 	    <option></option>
 	    <t t-foreach="widget.flight_going_list" t-as="going_list">
 	        <option t-att-value="going_list.id"><t t-esc="going_list.name"/></option>
+	    </t>
+	</t>
+	<t t-name="flight_going_country">
+	    <option></option>
+	    <t t-foreach="widget.flight_going_country" t-as="country">
+	        <option t-att-value="country.id"><t t-esc="country.name"/></option>
 	    </t>
 	</t>
 	<t t-name="domestic_flight_name_list">
