@@ -3133,6 +3133,7 @@
             </section>
         </template>
 
+<<<<<<< HEAD
         <!-- BOOKING FORM 1 -->
         <template id="s_booking_form_1" name="Booking Form 1">
             <section class="booking-wrapper">
@@ -3152,6 +3153,267 @@
                             <div role="tabpanel" class="tab-pane getHotelForm1" id="hotelv1">
                             </div>
                             <div class="getModalForm1">
+=======
+        <!--- RAFTING ONE -->
+        <template id="s_rafting_1" name="Rafting 1">
+            <section class="travel-panel">
+                <div class="container">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> 
+                                        KARNALI RAFING DETAILS</a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <img src="/tnt_snippets/static/src/img/travel-snippets/rafting.jpg" class="img-responsive" alt="" />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p> This trip is considered to be the most beautiful and enjoyable trip in all
+                                                Nepal. There is a great mix of jungle scenery and lowland forests. It is the
+                                                also Nepal’s longest one river journey in Wild West having some challenging
+                                                rapids and beautiful landscape sceneries. The river lies far west of Kathmandu
+                                                in a very rural area that has recently been opened to foreigners. It is a class
+                                                4 river that takes a week to run. There is also the option to visit Bardia
+                                                National Park and explore the jungle at the end of the trip.(see jungle
+                                                adventures). Total journey to this river covers 7 days and rest 3 days driving
+                                                involves.</p>
+                                            <p>
+                                                Our guides are experienced rafters who have run all the rivers we offer and
+                                                have the skills to provide you with a safe and enjoyable trip. There will
+                                                always be a guide in every boat who will give instructions on paddling and pick
+                                                out the safest route on the river. There will be also safety pre causation
+                                                concern along the trip so each and every rafting trip organized by us will be
+                                                added safety kayaker to make rafting guaranteed safe one.</p>
+                                            <p><strong>Note:</strong> Generally rafting trip stars every day after breakfast
+                                                from the camp site, lunch break on the way and finally stop next camp and one
+                                                day trip starts by noon and end the trip by 3 PM and transfer to onward
+                                                journey.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> 
+                                        KARNALI RAFTING HIGHLIGHTS</a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <p><strong>Avaiability :</strong> Departure date on request</p>
+                                            <p><strong>River Days :</strong> 10 Days- most popular run, adrenaline magic of
+                                                Himalayan flow</p>
+                                            <p><strong>Rafting Grade :</strong>3-5 Class</p>
+                                            <p><strong>Trip Type: </strong> Expedition run</p>
+                                            <p><strong> Best Season :</strong> September to May</p>
+                                            <p><strong>Put in Point :</strong> Dungeshwor</p>
+                                            <p><strong>Ending Point :</strong> Chisapani</p>
+                                            <p><strong>Transportation :</strong> Private Jeep/Van/Bus or tourist bus as per
+                                                requirement</p>
+                                            <p><strong>Meals / Accommodation:</strong> At River Beach-tented camp or mass dome
+                                                of raft with trap, lunch, dinner and breakfast </p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> 
+                                        KARNALI RAFTING ITINERARY</a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="row">
+
+                                        <div class="col-md-12">
+                                            <p><strong>Day 01 :</strong> 08:00 AM Departure from Kathmandu</p>
+                                            <p><strong>Day 02 :</strong> 05:00 PM. Arrival at Surkhet. Trek option: begin
+                                                trekking straight away. Camp at school halfway to river.</p>
+                                            <p><strong>Day 03 :</strong> Continue Trek to river arriving early afternoon,
+                                                rafting for an hour or two, and Camp.</p>
+                                            <p><strong>Day 04 : </strong> River to above jungle Ghat</p>
+                                            <p><strong>Day 05 :</strong> Visit Jungle Ghat village, river to above the Jungle
+                                                Corridor</p>
+                                            <p><strong>Day 06 :</strong> The big day - God's house rapid and others.</p>
+                                            <p><strong>Day 07 :</strong> Out of the Jungle Corridor</p>
+                                            <p><strong>Day 08 :</strong> Steady float to confluence of the Bheri river</p>
+                                            <p><strong>Day 09 :</strong> Half day to Chisopani, leave mid-afternoon </p>
+                                            <p><strong>Day 10 :</strong> Drive back to Kathmandu </p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">  
+                                        TREKKING MAP</a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <!--- RAFTING TWO -->
+        <template id="s_rafting_2" name="Rafting 2">
+            <section class="rafing-info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2>Trishuli River Rafting</h2>
+                            <p>The Trisuli is Nepal´s most popular rafting river, impressive gorges, exciting rapids, some
+                                easier sections, and easily accessible from Kathmandu and Pokhara. White water rafting trip in
+                                Trishuli River is exciting, fun and safe for all age groups. Our one day Trishuli River Rafting
+                                with river views surrounded by forests and wilderness. This trip is recommended for
+                                intermediate Kayakers. The Trishuli raft trip can be easily combined with a trek out of Pokhara
+                                such as Gorepani Poon Hill Trek, Mardi Himal Trek, Annapurna Base Camp trek and or a visit to
+                                Royal Chitwan National Park.</p>
+                            <div class="itenary">
+                                <h3>Itenary</h3>
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                                                    <span class="day-count"><span class="day-number">01</span></span><small>Day 01:</small>Dolalghat – Khalte Chayenpur:</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse11" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+
+                                                <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                    point on
+                                                    the Sun Koshi River. After the usual briefing and preparations, the trip is
+                                                    on.
+                                                    The river looks deceitfully peaceful and lazy and soon local villagers are
+                                                    encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                    encountered along the way on the first day is Kooyeh Bhir. There are
+                                                    villages
+                                                    and temples on the way until campsite is reached a few kilometers above
+                                                    rapid
+                                                    Meat Grinder. While some opt to help the crew to pitch up tents, others can
+                                                    spend time exploring the surroundings.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">
+                                                        <span class="day-count"><span class="day-number">02</span></span><small>Day 02:</small>Khalte Chayenpur – Likhu Khola:</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse22" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>Have breakfast and pack up gear and start rolling down the river lies the
+                                                    first
+                                                    Class III rapid, Meat Grinder. The path to choose is straight through the
+                                                    middle avoiding holes on either side. A few kilometers down and the
+                                                    confluence
+                                                    of the Tama Koshi or “River of Copper” and Sun Koshi are encountered. After
+                                                    a
+                                                    lunch stop, there is ample time to explore the landscape and see different
+                                                    ethnic groups along the river. The second camp is set up above the rapid
+                                                    Punch
+                                                    and Judy. The day ends with a dinner by campfire.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse33">
+                                                        <span class="day-count"><span class="day-number">03</span></span><small>Day 03:</small>Likhu Khola - Harkapur:</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse33" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>The valley here is always changing in terms of its width. At Bat Cave, the
+                                                    crew
+                                                    takes the rapid seriously. The size of the rapids on this river can
+                                                    surprise
+                                                    you. It is time to stop and scout and eventually decide on the most
+                                                    exciting
+                                                    route through. Here people of the ethnic group called Newars always wait to
+                                                    see
+                                                    the adventurers pass by. Floating down after lunch, the water splashes
+                                                    across
+                                                    the boat but the waves are no threat. Later, a nice stretch of sandy beach
+                                                    is
+                                                    chosen for the campsite. The monsoon floods deposit large amounts of white
+                                                    sand
+                                                    which seem ideally made for camping.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Cost Includes :</h3>
+                            <ul class="cost-include">
+                                <li>Free airport – hotel – airport pick and drop off.</li>
+                                <li>All ground transportation and experienced adventure guide with safety assistant.
+                                </li>
+                                <li>Meals, Western and continental food (breakfast, lunch, dinner) during your rafting trip.</li>
+                                <li>River Permit, Camping Gear, Safety Kayak, First aid kid box</li>
+                                <li>Necessary equipment as high quality self-bailing rafts, lifejackets, helmets, plastic 
+                                    paddles, wetsuits (only during the winter) on certain rivers, dry bag for gear, camera
+                                    barrels and all safety and medical equipment</li>
+                                <li>Necessary Staffs (Guide, Helpers, Cook etc)</li>
+                                <li>Tented accommodation in beautiful river beach with camp fire.</li>
+                                <li>Food, accommodation, insurance for all staff and their transportation</li>
+                                <li>Expedition elements include professional guides and leadership</li>
+                            </ul>
+                            <h3>Cost Excludes :</h3>
+                            <ul class="cost-excludes">
+                                <li>All bar bills, beverages such as mineral water, coke fanta etc. </li>
+                                <li>Hotel accommodations and meals at if you stay anywhere at the hotel during whole trip</li>
+                                <li>Emergency evacuation, internet, phone calls, things of personal use.
+                                </li>
+                                <li>Your insurance, tips and gratitude for your guide and assistants.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="rafting-itinerary-sidebar">
+                                <h4>  RAFTING HIGHLIGHTS</h4>
+                                    <ul class="trip-highlights">
+                                        <li><strong> Avaiability -</strong> Departure date on request</li>
+                                        <li><strong>River Days -</strong> 10 Days- most popular run, adrenaline magic of Himalayan flow
+                                        </li>
+                                        <li><strong>Rafting Grade -</strong> 3-5 Class</li>
+                                        <li><strong>Trip Type -</strong> Expedition run</li>
+                                        <li><strong>Best Season -</strong> September to Mayt</li>
+                                        <li><strong>Put in Point -</strong> Dungeshwor</li>
+                                        <li><strong>Ending Point -</strong> Chisapani</li>
+                                        <li><strong>Transportation -</strong> Private Jeep/Van/Bus or tourist bus as per requirement</li>
+                                        <li><strong>Meals / Accommodation -</strong> At River Beach-tented camp or mass dome of raft with trap, lunch, dinner and breakfast</li>
+                                    </ul>
+>>>>>>> 0953fbc7603d9e2f38e9f14adb02cd19da4406f6
                             </div>
                         </div>
                     </div>
@@ -3201,7 +3463,12 @@
                 <t t-snippet="tnt_snippets.s_testimonial_v_three" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_four" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_five" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
+<<<<<<< HEAD
                 <t t-snippet="tnt_snippets.s_booking_form_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
+=======
+                <t t-snippet="tnt_snippets.s_rafting_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
+                <t t-snippet="tnt_snippets.s_rafting_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
+>>>>>>> 0953fbc7603d9e2f38e9f14adb02cd19da4406f6
             </xpath>
             <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
                 <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
