@@ -19,6 +19,117 @@ body {
     display: block;
 }
 /*Added*/
+/*Booking Css Start*/
+.booking-wrapper {
+	background-color: #272727;
+	padding: 50px 0;
+}
+.booking-tab {
+}
+.booking-tab .nav-tabs {
+	border-bottom: 1px solid #3c3a3a;
+}
+.booking-tab .nav-tabs li {
+	margin-bottom: 0;
+}
+.booking-tab .nav-tabs li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 0;
+	border: none;
+}
+.booking-tab .nav-tabs li a i {
+	width: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 6px;
+}
+.booking-tab .nav-tabs li a i img {
+	width: auto;
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+.booking-tab .nav-tabs>li.active>a, .booking-tab .nav-tabs>li.active>a:focus, .booking-tab .nav-tabs>li.active>a:hover, .booking-tab .nav-tabs>li>a:hover {
+	background-color: #00a8c3;
+	border: none;
+	color: #ffffff;
+}
+.booking-tab .tab-content {
+	padding: 19px 0;
+}
+.booking-tab .tab-content form {
+}
+.booking-tab .tab-content form .form-group {
+	letter-spacing: -4px;
+}
+.booking-tab .tab-content form .form-group label {
+	display: none;
+	width: 30%;
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0;
+	vertical-align: middle;
+}
+.booking-tab .tab-content form .form-group .form-control {
+	border-radius: 0;
+	border-color: #3e3d3d;
+	background-color: transparent;
+	padding: 9px 15px;
+	height: auto;
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	letter-spacing: 0;
+	color: #fff;
+}
+.booking-tab .tab-content form .form-group select {
+	color: #ffffff;
+	background: url(../img/down-arrow.png) 97% center no-repeat;
+	background-size: 12px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.booking-tab .tab-content form .form-group select option {
+	color: #000000;
+}
+.booking-tab .tab-content form .form-group .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #ffffff;
+}
+.booking-tab .tab-content form .form-group .form-control::-moz-placeholder { /* Firefox 19+ */
+ color: #ffffff;
+}
+.booking-tab .tab-content form .form-group .form-control:-ms-input-placeholder { /* IE 10+ */
+ color: #ffffff;
+}
+.booking-tab .tab-content form .form-group .form-control:-moz-placeholder { /* Firefox 18- */
+ color: #ffffff;
+}
+.booking-tab .tab-content form .btn {
+	background-color: #00a8c3;
+	border-radius: 0;
+	border: none;
+	padding: 10px 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.booking-tab .tab-content form .form-group .datepicker {
+	background: url(/deeps/static/src/img/booking_form/calendar.png) 97% center no-repeat;
+}
+.ui-widget.ui-widget-content {
+	z-index: 999 !important;
+}
+.booking-tab .tab-content .book-title {
+	color: #ffffff;
+	font-weight: 500;
+	padding-bottom: 20px;
+	letter-spacing: 0.6px;
+}
 .intro {
     display: table;
     margin: auto;
@@ -5006,6 +5117,8 @@ p.lead {
 		line-height: 25px;
 	}
 }
+<<<<<<< HEAD
+=======
 
 /*========== RAFTING ONE ===========*/
 .travel-panel{
@@ -5223,8 +5336,10 @@ span.day-count {
 .itenary .panel-default>.panel-heading h4 a{
 	background-color:transparent !important;
 }
+
 @media only screen and (max-width: 600px) {
 	.rafing-info .panel-body {
 		padding: 15px 0px !important;
 	}
 }
+
