@@ -2,7 +2,7 @@
 <templates>
     <t t-name="testimonials_one">
         <div class="testimonial-carousel">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div id="carousel-example-generic55" class="carousel slide" data-ride="carousel">
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -52,11 +52,11 @@
                     <span class="sr-only">Previous</span> 
                 </a> 
                 <a class="carousel-control left" data-target="#carousel-example-generic" role="button" data-slide="next">
-                    
+                    <span class="fa fa-long-arrow-right" aria-hidden="true"></span> 
                     <span class="sr-only">Next</span>  
                 </a> -->
-                <div class="carousel-control left" data-target="#carousel-example-generic" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
-                <div class="carousel-control right" data-target="#carousel-example-generic" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div>
+                <div class="carousel-control left" data-target="#carousel-example-generic55" data-slide="prev" style="width: 10%"><i class="fa fa-chevron-left"></i></div>
+                <div class="carousel-control right" data-target="#carousel-example-generic55" data-slide="next" style="width: 10%"><i class="fa fa-chevron-right"></i></div>
                 
             </div>
         </div>
