@@ -106,6 +106,15 @@ a:focus {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+p.lead {
+    line-height: 25px;
+}
+.title span{
+	display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
 
 /*=============== FORM BANNER ===============*/
 .form-banner-1{
@@ -259,8 +268,16 @@ a:focus {
 @media only screen and (max-width: 800px) {}
 @media only screen and (max-width: 767px) {}
 @media only screen and (max-width: 600px) {
-	.form-banner-1 .getBookingApp .nav-tabs li {
-		width: 50%;
+	.form-banner-1 {
+		position: relative;
+		padding: 50px 0;
+		height: auto !important;
+	}
+	.form-banner-tab-wrap {
+		padding: 10px;
+	}
+	.form-banner-1-caption {
+		padding-top: 0px;
 	}
 }
 @media only screen and (max-width: 480px) {}
@@ -814,7 +831,11 @@ a:focus {
 	width: 100%;
 	min-height: 380px;
 }
-
+@media only screen and (max-width: 600px) {
+	.trekking-1-box img {
+		min-height: 305px;
+	}
+}
 
 /*=============== TREKKIING TWO ===============*/
 
@@ -866,7 +887,11 @@ a:focus {
 	width: 100%;
 	min-height: 380px;
 }
-
+@media only screen and (max-width: 600px) {
+	.trekking-2-box img {
+		min-height: 305px;
+	}
+}
 
 /*=============== TREKKIING THREE ===============*/
 
@@ -1020,21 +1045,9 @@ a:focus {
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1220px) {
-	.trekking-3-image-overlay .trekking-3-overlay-content h3 {
-		font-size: 15px;
-	}
-	.trekking-3-image-overlay .trekking-3-overlay-content {
-		padding: 150px 20px !important;
-	}
 }
 
 @media only screen and (max-width: 990px) {
-	.trekking-3-image-overlay .trekking-3-overlay-content {
-		padding: 200px 20px !important;
-	}
-	.trekking-3-image-overlay .trekking-3-overlay-content h3 {
-		font-size: 19px !important;
-	}
 }
 
 
@@ -1385,21 +1398,8 @@ a:focus {
 /* RESPONSIVE */
 
 @media only screen and (max-width: 1220px) {
-	.trekking-5-image-overlay .trekking-5-overlay-content h3 {
-		font-size: 15px;
-	}
-	.trekking-5-image-overlay .trekking-5-overlay-content {
-		padding: 150px 20px !important;
-	}
 }
-
 @media only screen and (max-width: 990px) {
-	.trekking-5-image-overlay .trekking-5-overlay-content {
-		padding: 200px 20px !important;
-	}
-	.trekking-5-image-overlay .trekking-5-overlay-content h3 {
-		font-size: 19px !important;
-	}
 }
 
 
@@ -1521,7 +1521,7 @@ a:focus {
 
 @media only screen and (max-width: 767px) {
 	.about-1 {
-		padding: 0px 30px !important;
+		padding: 30px 30px !important;
 	}
 	.about-1-txt {
 		padding: 26px !important;
@@ -1660,7 +1660,7 @@ a:focus {
 @media only screen and (max-width: 767px) {
 	.about-2 {
 		background: #f5f5f5;
-		padding: 0px 30px !important;
+		padding: 30px 30px !important;
 	}
 	.about-2-txt {
 		padding: 26px !important;
@@ -1803,7 +1803,7 @@ a:focus {
 @media only screen and (max-width: 767px) {
 	.about-3 {
 		background: #f5f5f5;
-		padding: 0px 30px !important;
+		padding: 30px 30px !important;
 	}
 	.about-3-txt {
 		padding: 26px !important;
@@ -1916,7 +1916,7 @@ a:focus {
 		padding: 0 10px !important;
 	}
 	.half-joined-img {
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 	.joined-second-img {
 		max-height: 300px;
@@ -2197,7 +2197,11 @@ a:focus {
 		font-size: 15px;
 	}
 }
-
+@media only screen and (max-width: 600px) {
+	.popup-gallery-section .destinations figure {
+		min-height: 216px;
+	}
+}
 
 /*=============== GALLERY TWO ===============*/
 
@@ -2514,6 +2518,11 @@ a:focus {
 		font-size: 13px;
 	}
 }
+@media only screen and (max-width: 600px) {
+	.tourpackage {
+		padding: 10px;
+	}
+}
 
 
 /*=============== TOUR PACKAGE TWO ===============*/
@@ -2739,6 +2748,9 @@ a:focus {
 	.tourpackagevthree .col-xs-7 {
 		width: 100%;
 	}
+	.tourpackagevthree {
+		padding: 10px;
+	}
 }
 
 
@@ -2944,6 +2956,9 @@ a:focus {
 @media only screen and (max-width: 580px) {
 	.tourpackagevfive .col-xs-6 {
 		width: 100%;
+	}
+	.tourpackagevfive {
+		padding: 10px;
 	}
 }
 
@@ -3614,7 +3629,18 @@ a:focus {
 	-o-transform: rotate3d(1, 0, 0, 180deg);
 	transform: rotate3d(1, 0, 0, 180deg);
 }
-
+@media only screen and (max-width: 600px) {
+	.activities-sectionvfour .icon-box {
+		padding: 10px;
+	}
+	.activities-sectionvfour .icon-box img {
+		width: 65px;
+	}
+	.activities-sectionvfour .icon-box h3 {
+		font-size: 12px;
+		margin-top: 20px;
+	}
+}
 
 /*=============== TESTIMONIAL ONE ===============*/
 
@@ -5146,8 +5172,8 @@ span.day-count {
 .rafing-info h2 {
     font-weight: 600;
     margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
+    /* border-bottom: 1px solid #eee;
+    padding-bottom: 10px; */
 }
 .rafting-itinerary-sidebar {
 }
@@ -5196,4 +5222,9 @@ span.day-count {
 }
 .itenary .panel-default>.panel-heading h4 a{
 	background-color:transparent !important;
+}
+@media only screen and (max-width: 600px) {
+	.rafing-info .panel-body {
+		padding: 15px 0px !important;
+	}
 }
