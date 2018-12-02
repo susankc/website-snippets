@@ -3133,27 +3133,6 @@
             </section>
         </template>
 
-<<<<<<< HEAD
-        <!-- BOOKING FORM 1 -->
-        <template id="s_booking_form_1" name="Booking Form 1">
-            <section class="booking-wrapper">
-                <div class="container">
-                    <div class="booking-tab"> 
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#flightv1" aria-controls="flightv1" role="tab" data-toggle="tab"><i class="icon"><img src="deeps/static/src/img/booking_form/aeroplane.png" alt=""/></i>Flight</a></li>
-                            <li role="presentation"><a href="#vechilev1" aria-controls="vechilev1" role="tab" data-toggle="tab"><i class="icon"><img src="deeps/static/src/img/booking_form/car.png" alt=""/></i>Vechile</a></li>
-                            <li role="presentation"><a href="#hotelv1" aria-controls="hotelv1" role="tab" data-toggle="tab"><i class="icon"><img src="deeps/static/src/img/booking_form/resort.png" alt=""/></i>Hotels</a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane active getFligthForm1" id="flightv1">
-                            </div>
-                            <div role="tabpanel" class="tab-pane getVehicleForm1" id="vechilev1">
-                            </div>
-                            <div role="tabpanel" class="tab-pane getHotelForm1" id="hotelv1">
-                            </div>
-                            <div class="getModalForm1">
-=======
         <!--- RAFTING ONE -->
         <template id="s_rafting_1" name="Rafting 1">
             <section class="travel-panel">
@@ -3413,7 +3392,6 @@
                                         <li><strong>Transportation -</strong> Private Jeep/Van/Bus or tourist bus as per requirement</li>
                                         <li><strong>Meals / Accommodation -</strong> At River Beach-tented camp or mass dome of raft with trap, lunch, dinner and breakfast</li>
                                     </ul>
->>>>>>> 0953fbc7603d9e2f38e9f14adb02cd19da4406f6
                             </div>
                         </div>
                     </div>
@@ -3463,12 +3441,8 @@
                 <t t-snippet="tnt_snippets.s_testimonial_v_three" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_four" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_five" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
-<<<<<<< HEAD
-                <t t-snippet="tnt_snippets.s_booking_form_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
-=======
                 <t t-snippet="tnt_snippets.s_rafting_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_rafting_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
->>>>>>> 0953fbc7603d9e2f38e9f14adb02cd19da4406f6
             </xpath>
             <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
                 <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
