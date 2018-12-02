@@ -97,6 +97,102 @@
 		        </div>
 		    </form>
 	</t>
+	<t t-name="booking_form_flight2">
+		    <ul class="nav nav-tabs" role="tablist">
+		        <li role="presentation" class="active"><a href="#d-flight" aria-controls="d-flight" role="tab" data-toggle="tab" id="domestic_tab">Domestic</a>
+		        </li>
+		        <li role="presentation"><a href="#i-flight" aria-controls="i-flight" role="tab" data-toggle="tab" id="international_tab">International</a>
+		        </li>
+		    </ul>
+		    <h4 class="book-title">Search and Book Domestic Flights</h4>
+		    <div class="form-group">
+		        <div class="radio">
+		            <input type="radio" name="way" id="one_way" value="one way" checked="checked"/>
+		            <label for="one_way"><span><span></span></span>One Way</label>
+		        </div>
+		        <div class="radio">
+		            <input type="radio" name="way" id="round_trip" value="round trip"/>
+		            <label for="round_trip"><span><span></span></span>Round Trip</label>
+		        </div>
+		    </div>
+            <form class="row">
+            	<div id="success" class="alert alert-success" style="display:none;">
+            	    <p><strong>Success!</strong> Your Flight has been booked successfully.</p>  
+            	</div>
+            	<div id="warning" class="alert alert-warning" style="display:none; ">
+            	    <strong>Opps!</strong>
+            	    <span></span>
+            	</div>
+                <div class="form-group col-md-4">
+                    <label for="from">From</label>
+                    <select class="form-control" id="flight2fromPlace">
+		                <option></option>
+		                <t t-foreach="widget.flight_froms" t-as="flight_from">
+	                       <option t-att-value="flight_from.id"><t t-esc="flight_from.name"/></option>
+	                   </t>
+		            </select>
+		            <select class="form-control" id="flight2fromCountry">
+		                <option></option>
+		                <t t-foreach="widget.countries" t-as="country">
+                           <option t-att-value="country.id"><t t-esc="country.name"/></option>
+                       </t>
+		            </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="from">To</label>
+                    <select class="form-control" id="flight2toPlace">
+		            </select>
+		            <select class="form-control" id="flight2goingCountry">
+		            </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="from">Flight Name</label>
+                    <select class="form-control" id="flight2_list">
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="departure">Departure</label>
+                    <input type="text" class="form-control datepicker datepic flight2Departure" id="departure" placeholder="mm/dd/yy"/>
+                </div>
+                <div class="form-group col-md-4 arrival_date">
+                    <label for="arrival">Arrival</label>
+                    <input type="text" class="form-control datepicker datepic flight2Arrival" id="arrival" placeholder="mm/dd/yy"/>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="adult">Adult</label>
+                    <select class="form-control">
+                        <option>No. of Adult</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="adult">Child</label>
+                    <select class="form-control">
+                        <option>No. of Child</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="adult">Infats</label>
+                    <select class="form-control infant">
+                        <option>No. of Infants</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+		            <button type="button" class="btn btn-default homepageFlight_btn2">Book Now</button>
+		        </div>
+            </form>
+	</t>
 	<t t-name="vehicle_one">
 		<h4 class="book-title">Online Bus Tickets Booking</h4>
         <form class="row">
@@ -179,6 +275,88 @@
             </div>
         </form>
 	</t>
+	<t t-name="vehicle_two">
+		<h4 class="book-title">Online Bus Tickets Booking</h4>
+		<form class="row">
+			<div id="v_success" class="alert alert-success" style="display:none;">
+			    <p><strong>Success!</strong> Your Vehicle has been booked successfully.</p>  
+			</div>
+			<div id="v_warning" class="alert alert-warning" style="display:none; ">
+			    <strong>Opps!</strong>
+			    <span></span>
+			</div>
+		    <div class="form-group col-md-4">
+		        <label for="from">Leaving From</label>
+		        <select class="form-control v_fromplace">
+                    <option></option>
+                   <t t-foreach="widget.vehicle_froms" t-as="vehicle_from">
+                      <option t-att-value="vehicle_from.id"><t t-esc="vehicle_from.name"/></option>
+                  </t>
+                </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="from">Going To</label>
+		        <select class="form-control v_toplace">
+                </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="from">Types of Vechile</label>
+		        <select class="form-control vehicle_type">
+		            <option></option>
+		            <t t-foreach="widget.vehicle_types" t-as="vehicle_type">
+		                <option t-tatt-value="vehicle_type.id"><t t-esc="vehicle_type.name"/></option>
+		            </t>
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="from">Vechile Name</label>
+		        <select class="form-control vehicle_name">
+		            
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="vechile-departure">From</label>
+		        <input type="text" class="form-control datepicker datepic v_from" id="vechile-departure" placeholder="mm/dd/yy"/>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="vechilearrival">To</label>
+		        <input type="text" class="form-control datepicker datepic v_to" id="vechilearrival" placeholder="mm/dd/yy"/>
+		    </div>
+		    <div class="form-group col-md-4">
+                <label for="adult">Adult</label>
+                <select class="form-control v_adult">
+                    <option>No. of Adult</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="adult">Child</label>
+                <select class="form-control v_child">
+                    <option>No.of Child</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="adult">Infants</label>
+                <select class="form-control v_infant">
+                    <option>No.of Child</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="col-md-12">
+                <button type="button" class="btn btn-default vehicle_book_btn1">Book Now</button>
+            </div>
+		</form>
+	</t>
 	<t t-name="booking_form_hotel1">
 		<h4 class="book-title">Book a Hotel Instantly.</h4>
 		<form class="row">
@@ -256,7 +434,84 @@
 		    </div>
 		</form>
 	</t>
-	<t t-name="booking_modal">
+	<t t-name="booking_form_hotel2">
+		<h4 class="book-title">Book a Hotel Instantly.</h4>
+		<form class="row">
+			<div id="h_success" class="alert alert-success" style="display:none;">
+			    <p><strong>Success!</strong> Your Hotel has been booked successfully.</p>  
+			</div>
+			<div id="h_warning" class="alert alert-warning" style="display:none; ">
+			    <strong>Opps!</strong>
+			    <span></span>
+			</div>
+		    <div class="form-group col-md-4">
+		        <label for="checkin">Checkin</label>
+		        <input type="text" class="form-control datepic h_checkin" id="checkin" placeholder="Checkin"/>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="checkout">Checkout</label> 
+		        <input type="text" class="form-control datepic h_checkout" id="checkout" placeholder="Checkout"/>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="hotel-type">Types of Hotel</label>
+		        <select class="form-control hotel_type">
+		            <option></option>
+		            <t t-foreach="widget.hotel_types" t-as="hotel_type">
+		                <option t-att-value="hotel_type.id"><t t-esc="hotel_type.name"/></option> 
+		            </t>
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="room-type">Types of Room</label>
+		        <select class="form-control roomtype">
+		            <option></option>
+		            <t t-foreach="widget.room_types" t-as="room_type">
+		                 <option t-att-value="room_type.id"><t t-esc="room_type.name"/></option> 
+		             </t>
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="room-type">Hotel Name</label>
+		        <select class="form-control hotel_name">
+		            <option>Hotel</option>
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="adult">Adult</label>
+		        <select class="form-control h_adult">
+		            <option>No. of Adult</option>
+		            <option>2</option>
+		            <option>3</option>
+		            <option>4</option>
+		            <option>5</option>
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="adult">Child</label>
+		        <select class="form-control h_child">
+		            <option>No. of Child</option>
+		            <option>2</option>
+		            <option>3</option>
+		            <option>4</option>
+		            <option>5</option>
+		        </select>
+		    </div>
+		    <div class="form-group col-md-4">
+		        <label for="adult">Child</label>
+		        <select class="form-control h_infants">
+		            <option>No. of Infant</option>
+		            <option>2</option>
+		            <option>3</option>
+		            <option>4</option>
+		            <option>5</option>
+		        </select>
+		    </div>
+		    <div class="col-md-12">
+		        <button type="button" class="btn btn-default hotel_book_btn1">Book Now</button>
+		    </div>
+		</form>
+	</t>
+	<t t-name="booking_modal_booking_1">
 	    <!-- Modal -->
 	    <div class="modal fade" id="homePageModal" role="dialog">
 	        <div class="modal-dialog">                    
@@ -342,6 +597,98 @@
 	            </div>
 	            <div class="modal-footer">
 	              <button type="button" class="btn learn-btn home_book_btn1 btn-alpha">Book Now</button>
+	            </div>
+	          </div>	          
+	        </div>
+	    </div>
+	    <!-- Modal -->
+	</t>
+	<t t-name="booking_modal_booking_2">
+	    <!-- Modal -->
+	    <div class="modal fade" id="homePageModa2" role="dialog">
+	        <div class="modal-dialog">                    
+	          <!-- Modal content-->
+	          <div class="modal-content">
+	            <div class="modal-header clearfix">                          
+	              <h4 class="modal-title pull-left">Personal Information</h4>
+	              <button type="button" class="close pull-right" data-dismiss="modal">&amp;times;</button>
+	            </div>
+	        	<div id="modal_success" class="alert alert-success" style="display:none; ">
+					<strong>Success!</strong> Your operation has been done.	
+				</div>
+				<div id="modal_warning" class="alert alert-warning" style="display:none; ">
+					<strong>Opps!</strong>
+					<span></span>
+				</div>
+	            <div class="modal-body">
+	              <form class="book-form" method="post" id="modal_form">	                  
+	                      <!-- <legend>Personal Information</legend> -->
+	                    <div class="row">
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="fname">First Name <sup>*</sup></label>
+                                      <input type="text" name="txtFirstName" class="form-control" id="fname" required="" value="Asmit"/>
+	                              </div>
+	                          </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="lname">Last Name <sup>*</sup></label>
+	                                  <input type="text" name="txtLastName" class="form-control" id="lname" required="" value="Nepali"/>
+	                              </div>
+	                          </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="email">Email <sup>*</sup></label>
+	                                  <input type="email" name="txtEmail" class="form-control" id="email" required="" value="asmit@gmail.com"/>
+	                              </div>
+	                          </div>
+                              <div class="col-md-4">
+                                  <div class="form-group">
+                                      <label for="email">Passport/Citizenship No: <sup>*</sup></label>
+                                      <input type="text" name="txtEmail" class="form-control" id="id_number" required="" value="165465461645"/>
+                                  </div>
+                              </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="telephone">Telephone <sup>*</sup></label>
+	                                  <input type="text" name="txtTelephone" class="form-control" id="telephone" required="" value="165465461645"/>
+	                              </div>
+	                          </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="mobile">Mobile</label>
+	                                  <input type="text" name="txtMobile" class="form-control" id="mobile" value="165465461645"/>
+	                              </div>
+	                          </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="country">Country <sup>*</sup></label>
+	                                  <select name="country" class="form-control" required="" id="country">
+                                          <option value=""></option>
+                                          <t t-foreach="widget.countries" t-as="country">
+                                            <option t-att-value="country.id"><t t-esc="country.name"/></option>
+                                          </t>
+	                                      
+	                                  </select>
+	                                </div>
+	                          </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="occupation">Occupation</label>
+	                                  <input type="text" name="txtOccupation" class="form-control" id="occupations" value="fshdajfh"/>
+	                              </div>
+	                          </div>
+	                          <div class="col-md-4">
+	                              <div class="form-group">
+	                                  <label for="dob">Date of Birth</label>
+	                                  <input type="text" name="txtDOB" class="form-control datepicker date" id="dob"/>
+	                              </div>
+	                          </div>
+	                    </div>
+	              </form>
+	            </div>
+	            <div class="modal-footer">
+	              <button type="button" class="btn learn-btn home_book_btn2 btn-alpha">Book Now</button>
 	            </div>
 	          </div>	          
 	        </div>
