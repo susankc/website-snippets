@@ -3444,7 +3444,7 @@
                 <t t-snippet="tnt_snippets.s_rafting_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_rafting_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
             </xpath>
-            <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
+            <xpath expr="//div[@id='snippet_content']//t[@t-snippet][last()]" position="after">
                 <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
                 <t t-snippet="tnt_snippets.s_newsletter_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
                 <t t-snippet="tnt_snippets.s_newsletter_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/centered-newsletter.jpg" />
