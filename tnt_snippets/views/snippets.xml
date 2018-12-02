@@ -3155,6 +3155,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+        </template>
         <!--- SLIDER 5 -->
         <template id="s_slider_5" name="Slider 5">
             <section class="slider-5">
