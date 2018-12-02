@@ -3133,7 +3133,6 @@
             </section>
         </template>
 
-<<<<<<< HEAD
         <!--- SLIDER 5 -->
         <template id="s_slider_5" name="Slider 5">
             <section class="slider-5">
@@ -3244,8 +3243,6 @@
         </template>
 
 
-=======
->>>>>>> e9e005b78b7d48f92e8b3ecf7168c216e18a1bf4
         <!--- RAFTING ONE -->
         <template id="s_rafting_1" name="Rafting 1">
             <section class="travel-panel">
@@ -3505,7 +3502,6 @@
                                         <li><strong>Transportation -</strong> Private Jeep/Van/Bus or tourist bus as per requirement</li>
                                         <li><strong>Meals / Accommodation -</strong> At River Beach-tented camp or mass dome of raft with trap, lunch, dinner and breakfast</li>
                                     </ul>
-<<<<<<< HEAD
                             </div>
                         </div>
                     </div>
@@ -3970,8 +3966,6 @@
                                         </div>
                                     </div>
                                 </div>
-=======
->>>>>>> e9e005b78b7d48f92e8b3ecf7168c216e18a1bf4
                             </div>
                         </div>
                     </div>
@@ -3985,8 +3979,8 @@
                 <t t-snippet="tnt_snippets.s_slider_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_slider_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_slider_4" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
-                <t t-snippet="tnt_snippets.s_slider_5" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
-                <t t-snippet="tnt_snippets.s_slider_6" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <!-- <t t-snippet="tnt_snippets.s_slider_5" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <t t-snippet="tnt_snippets.s_slider_6" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" /> -->
                 <t t-snippet="tnt_snippets.s_form_banner_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_package_carousel" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_trekking_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/trekking-box-1.jpg" />
@@ -4025,10 +4019,7 @@
                 <t t-snippet="tnt_snippets.s_testimonial_v_five" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_rafting_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_rafting_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
-<<<<<<< HEAD
                 <t t-snippet="tnt_snippets.s_hotel_itinerary" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
-=======
->>>>>>> e9e005b78b7d48f92e8b3ecf7168c216e18a1bf4
             </xpath>
             <xpath expr="//div[@id='snippet_content']//t[@t-snippet][last()]" position="after">
                 <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
