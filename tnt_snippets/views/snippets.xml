@@ -3133,27 +3133,116 @@
             </section>
         </template>
 
-<<<<<<< HEAD
-        <!-- BOOKING FORM 1 -->
-        <template id="s_booking_form_1" name="Booking Form 1">
-            <section class="booking-wrapper">
-                <div class="container">
-                    <div class="booking-tab"> 
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#flightv1" aria-controls="flightv1" role="tab" data-toggle="tab"><i class="icon"><img src="deeps/static/src/img/booking_form/aeroplane.png" alt=""/></i>Flight</a></li>
-                            <li role="presentation"><a href="#vechilev1" aria-controls="vechilev1" role="tab" data-toggle="tab"><i class="icon"><img src="deeps/static/src/img/booking_form/car.png" alt=""/></i>Vechile</a></li>
-                            <li role="presentation"><a href="#hotelv1" aria-controls="hotelv1" role="tab" data-toggle="tab"><i class="icon"><img src="deeps/static/src/img/booking_form/resort.png" alt=""/></i>Hotels</a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane active getFligthForm1" id="flightv1">
+        <!--- SLIDER 5 -->
+        <template id="s_slider_5" name="Slider 5">
+            <section class="slider-5">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel slider-5-carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="/tnt_snippets/static/src/img/travel-snippets/hotel.jpg" alt="First slide" />
+                            <div class="carousel-caption d-none d-md-block text-center">
+                                <h2>BODRUM LUXURY HOTEL</h2>
+                                <a href="#" class="btn btn-warning">Know More  <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 24" width="32" height="16" stroke="currentColor" class="cta-input__arrow">
+                                        <g fill-rule="evenodd" transform="rotate(0 24 12)">
+                                            <path d="M4 12H43M40 9L44 12L40 15" stroke-linecap="square" fill="none"></path>
+                                        </g>
+                                    </svg></a>
                             </div>
-                            <div role="tabpanel" class="tab-pane getVehicleForm1" id="vechilev1">
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="/tnt_snippets/static/src/img/travel-snippets/mint.jpg" alt="First slide" />
+                            <div class="carousel-caption d-none d-md-block text-center">
+                                <h2>MINT GARDEN NEPAL</h2>
+                                <a href="#" class="btn btn-warning">Know More <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 24" width="32" height="16" stroke="currentColor" class="cta-input__arrow">
+                                        <g fill-rule="evenodd" transform="rotate(0 24 12)">
+                                            <path d="M4 12H43M40 9L44 12L40 15" stroke-linecap="square" fill="none"></path>
+                                        </g>
+                                    </svg></a>
                             </div>
-                            <div role="tabpanel" class="tab-pane getHotelForm1" id="hotelv1">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" data-target="#carouselExampleIndicators1" role="button" data-slide="prev">
+                        <span class="fa fa-angle-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" data-target="#carouselExampleIndicators1" role="button" data-slide="next">
+                        <span class="fa fa-angle-right " aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </template>
+
+        <!--- SLIDER 6 -->
+        <template id="s_slider_6" name="Slider 6">
+            <section class="slider-6">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel slider-5-carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="/tnt_snippets/static/src/img/travel-snippets/sea-slugs-713823_1920.jpg" alt="First slide" />
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h2>BALI INDONESIA</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <a href="#" class="btn btn-warning">Know More <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 24" width="32" height="16" stroke="currentColor" class="cta-input__arrow">
+                                        <g fill-rule="evenodd" transform="rotate(0 24 12)">
+                                            <path d="M4 12H43M40 9L44 12L40 15" stroke-linecap="square" fill="none"></path>
+                                        </g>
+                                    </svg></a>
                             </div>
-                            <div class="getModalForm1">
-=======
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="/tnt_snippets/static/src/img/travel-snippets/greece-1217886_1920.jpg" alt="First slide" />
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h2>Santorini Greece</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <a href="#" class="btn btn-warning">Know More  <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 24" width="32" height="16" stroke="currentColor" class="cta-input__arrow">
+                                        <g fill-rule="evenodd" transform="rotate(0 24 12)">
+                                            <path d="M4 12H43M40 9L44 12L40 15" stroke-linecap="square" fill="none"></path>
+                                        </g>
+                                    </svg></a>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img class="d-block w-100" src="/tnt_snippets/static/src/img/travel-snippets/beach-1550465_1920.jpg" alt="First slide" />
+                            <div class="carousel-caption d-none d-md-block ">
+                                <h2>Maui Hawaii</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                <a href="#" class="btn btn-warning">Know More  <svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 48 24" width="32" height="16" stroke="currentColor" class="cta-input__arrow">
+                                        <g fill-rule="evenodd" transform="rotate(0 24 12)">
+                                            <path d="M4 12H43M40 9L44 12L40 15" stroke-linecap="square" fill="none"></path>
+                                        </g>
+                                    </svg></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" data-target="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="fa fa-angle-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" data-target="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="fa fa-angle-right " aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        </template>
+
+
         <!--- RAFTING ONE -->
         <template id="s_rafting_1" name="Rafting 1">
             <section class="travel-panel">
@@ -3413,7 +3502,470 @@
                                         <li><strong>Transportation -</strong> Private Jeep/Van/Bus or tourist bus as per requirement</li>
                                         <li><strong>Meals / Accommodation -</strong> At River Beach-tented camp or mass dome of raft with trap, lunch, dinner and breakfast</li>
                                     </ul>
->>>>>>> 0953fbc7603d9e2f38e9f14adb02cd19da4406f6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+
+        <template id="s_hotel_itinerary" name="Hotel Itinerary">
+            <section class="hotel-itinerary">
+                <div class="container">
+                    <div class="row itenary">
+                        <div class="col-md-12">
+                            <h3>Itenary</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel1">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 01</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel2">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 02</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel2" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel3">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 03</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel3" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel4">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 04</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel4" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel5">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 05</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel5" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel6">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 06</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel6" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel7">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 07</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel7" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel8">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 08</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel8" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel9">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 09</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel9" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel10">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 10</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel10" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel11">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 11</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel11" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <div class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsehotel12">
+                                                <div class="day-count"><span class="day-number"><small>Day</small> 12</span></div>
+                                                <div class="itinieray-title">
+                                                    <h4>Kathmandu - Pokhara</h4>
+                                                    <p><strong><i class="fa fa-building-o"></i> Hotel :</strong>
+                                                        Pokhara
+                                                        Grande Hotel </p>
+                                                </div>
+                                                <div class="itinierary-right-img">
+                                                    <img src="/tnt_snippets/static/src/img/travel-snippets/panel-thumb.jpg" alt="" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="collapsehotel12" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <p> After three-hour drive from Kathmandu to Dolalghat expedition starting
+                                                point on
+                                                the Sun Koshi River. After the usual briefing and preparations, the
+                                                trip is
+                                                on.
+                                                The river looks deceitfully peaceful and lazy and soon local villagers
+                                                are
+                                                encountered. Lunch stop is at a lovely sandy beach. One of the rapids
+                                                encountered along the way on the first day is Kooyeh Bhir. There are
+                                                villages
+                                                and temples on the way until campsite is reached a few kilometers above
+                                                rapid
+                                                Meat Grinder. While some opt to help the crew to pitch up tents, others
+                                                can
+                                                spend time exploring the surroundings.</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -3427,6 +3979,8 @@
                 <t t-snippet="tnt_snippets.s_slider_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_slider_3" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_slider_4" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <t t-snippet="tnt_snippets.s_slider_5" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
+                <t t-snippet="tnt_snippets.s_slider_6" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_form_banner_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_package_carousel" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/package_carousel.jpg" />
                 <t t-snippet="tnt_snippets.s_trekking_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/trekking-box-1.jpg" />
@@ -3463,12 +4017,9 @@
                 <t t-snippet="tnt_snippets.s_testimonial_v_three" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_four" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_testimonial_v_five" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
-<<<<<<< HEAD
-                <t t-snippet="tnt_snippets.s_booking_form_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
-=======
                 <t t-snippet="tnt_snippets.s_rafting_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
                 <t t-snippet="tnt_snippets.s_rafting_2" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
->>>>>>> 0953fbc7603d9e2f38e9f14adb02cd19da4406f6
+                <t t-snippet="tnt_snippets.s_hotel_itinerary" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/gallery-three.jpg" />
             </xpath>
             <xpath expr="//div[@id='snippet_feature']//t[@t-snippet][last()]" position="after">
                 <t t-snippet="tnt_snippets.s_newsletter_1" t-thumbnail="/tnt_snippets/static/src/img/thumbnails/side-newsletter.jpg" />
