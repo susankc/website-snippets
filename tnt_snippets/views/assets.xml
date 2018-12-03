@@ -2,6 +2,7 @@
   <data>
     <template id="tnt_snippets_assets_frontend" name="tnt_snippets Portal Assets" inherit_id="web.assets_frontend">
 			<xpath expr="//link[last()]" position="after">
+				<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600,700|Poppins:300,400,500,600,700|Roboto:400,500,700,900" rel="stylesheet" />	
 				<link rel="stylesheet" type="text/less" href="/tnt_snippets/static/src/less/fonts.less" />
 				<link rel="stylesheet" type="text/less" href="/tnt_snippets/static/src/less/wrapwrap.less" />
 				<link rel="stylesheet" type="text/css" href="/tnt_snippets/static/src/css/aos.css" />
