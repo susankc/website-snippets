@@ -1,0 +1,74 @@
+<odoo>
+    <data>
+        <template id="tnt_custom_footer" inherit_id="website.layout">
+			<xpath expr="//footer/div[@class='container hidden-print']" position="replace">
+                <div class="footer-v-2">
+                    <div class="container">
+                        <div class="footer-top">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-3">
+                                    <div class="footer-content">
+                                        <div class="logo-footer">Tours and Travel</div>
+                                        <p>Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad minim ven.</p>
+                                        <a href="about.html" class="link"> <span>Read More</span> </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-md-offset-1 col-sm-3">
+                                    <div class="footer-content">
+                                        <ul class="footerlist">
+                                            <li> <a href="#">Help Center</a> </li>
+                                            <li> <a href="#">FAQ</a> </li>
+                                            <li> <a href="#">Career</a> </li>
+                                            <li> <a href="#">Contact Us</a> </li>
+                                            <li> <a href="#">Term and Services</a> </li>
+                                            <li> <a href="#">Privacy Policy</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 ">
+                                    <div class="footer-content">
+                                        <ul class="footerlist">
+                                            <li> <a href="notice-board.html">Notice Board</a> </li>
+                                            <li> <a href="online-training.html">Online Training</a> </li>
+                                            <li> <a href="chairman-message.html">Chairman Message</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <div class="footer-content">
+                                        <div class="newsletter">
+                                            <h4>Subscribe to our Newsletter</h4>
+                                            <p>Sign up if you would like to receive occasional treats from us.</p>
+                                            <form class="form-horizontal">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="Your email address..." />
+                                                    <button class="btn btn-base" type="button">Go!</button>
+                                                </div>
+                                            </form>
+                                            <h4>Follow Us On </h4>
+                                            <ul class="social-links circle">
+                                                <li class="facebook"> <a target="_blank" href="http://www.facebook.com"> <i class="fa fa-facebook"></i> </a>
+                                                </li>
+                                                <li class="twitter"> <a target="_blank" href="http://www.twitter.com"> <i class="fa fa-twitter"></i> </a> </li>
+                                                <li class="googleplus"> <a target="_blank" href="http://plus.google.com"> <i class="fa fa-google-plus"></i>
+                                                    </a> </li>
+                                                <li class="youtube"> <a target="_blank" href="http://www.youtube.com"> <i class="fa fa-youtube"></i> </a> </li>
+                                                <li class="linkedin"> <a target="_blank" href="http://www.linkedin.com"> <i class="fa fa-linkedin"></i> </a>
+                                                </li>
+                                                <li class="instagram"> <a target="_blank" href="http://www.instagram.com"> <i class="fa fa-instagram"></i> </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-footer"> <small> 2018 © Tours and Travel. All rights reserved. </small>  <div id="google_translate_element"></div></div>
+                    </div>
+                </div>
+			</xpath>
+            <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace"/>
+        </template>
+    </data>
+</odoo>

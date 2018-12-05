@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+    	<template id="assets_frontend" name="footer_1_assets_frontend" inherit_id="website.assets_frontend">
+    		<xpath expr="//link[last()]" position="after">
+                <link href="/tnt-footer-v2/static/src/css/flaticon-package-1.css" rel="stylesheet" />
+                <link href="/tnt-footer-v2/static/src/css/footer-2.css" rel="stylesheet" />
+            </xpath>
+            <xpath expr="//script[last()]" position="after">
+                <!-- <script type="text/javascript" src="/deeps/static/src/js/deeps_contactus_form.js"/> -->
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+                    }
+                </script>
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </xpath>
+    	</template>
+    </data>
+</odoo>

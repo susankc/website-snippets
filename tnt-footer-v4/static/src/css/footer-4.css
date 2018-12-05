@@ -1,0 +1,312 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff;
+	color: #2c3e50;
+	counter-reset: section;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	min-height: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+ul, ol, h1, h2, h3, h4, h5, h6, p {
+	outline: none !important;
+	margin: 0;
+	padding: 0;
+}
+p + p {
+	padding: 10px 0;
+}
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}
+iframe {
+	max-width: 100%;
+}
+a:hover, a:focus {
+	outline: none;
+	text-decoration: none;
+}
+.mt30 {
+	margin-top: 40px;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+.clear {
+	clear: both;
+}
+
+/*Footer Version 4 Css Start*/
+.footer-v-4 {
+	font-size: 13px;
+	color: #cccccc;
+	background: #222222;
+	padding: 50px 0 0 0;
+}
+.footer-v-4 .footer-top {
+	padding: 60px 0;
+}
+.footer-v-4 .footer-down {
+	background: #000;
+	padding: 25px 0;
+	text-align: center;
+	font-size: 13px;
+	color: #888888;
+}
+.footer-v-4 .footer-col + .footer-col {
+	border-left: 1px solid #333333;
+	padding: 0 22px;
+	min-height: 290px;
+}
+.footer-v-4 .widget h2 {
+	font-family: 'Cabin Condensed', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	margin: 0px;
+}
+/*widgets*/
+.footer-v-4 .widget.widget-copyright {
+/*copyright widget*/
+}
+.footer-v-4 .widget.widget-copyright ul {
+	margin: 0px;
+	padding: 25px 0 0 0;
+}
+.footer-v-4 .widget.widget-copyright ul li {
+	list-style: none;
+	display: block;
+	margin-bottom: 18px;
+}
+.footer-v-4 .widget.widget-copyright ul li a {
+	font-size: 13px;
+	color: #cccccc;
+	padding-top: 7px;
+	display: block;
+}
+.footer-v-4 .widget.widget-copyright ul li.facebook {
+	background: url(img/facebook.png) 0 0 no-repeat;
+	height: 33px;
+	padding-left: 45px;
+}
+.footer-v-4 .widget.widget-copyright ul li.twitter {
+	background: url(img/twitter.png) 0 0 no-repeat;
+	height: 33px;
+	padding-left: 45px;
+}
+.footer-v-4 .widget.widget-copyright p {
+	font-size: 13px;
+	color: #aaaaaa;
+	padding-top: 13px;
+	margin: 0px;
+}
+.footer-v-4 .widget.widget-tweets {
+/*tweets widget*/
+}
+.footer-v-4 .widget.widget-tweets ul {
+	margin: 0px;
+	padding: 0 0 0 0;
+}
+.footer-v-4 .widget.widget-tweets ul li {
+	display: block;
+	padding: 13px 0 20px 0;
+	border-bottom: solid 1px #333333;
+}
+.footer-v-4 .widget.widget-tweets ul li p {
+	font-size: 13px;
+	color: #cccccc;
+	line-height: 20px;
+	margin: 0px;
+}
+.footer-v-4 .widget.widget-tweets ul li p a {
+	color: #2ea9ef;
+}
+.footer-v-4 .widget.widget-tweets ul li span {
+	padding-top: 7px;
+	color: #555555;
+	display: block;
+}
+.footer-v-4 .widget.widget-tweets ul li + li {
+	border: none;
+}
+.footer-v-4 .widget.widget-latest-news ul {
+	margin: 0px;
+	padding: 13px 0 0 0;
+}
+.footer-v-4 .widget.widget-latest-news ul li {
+	margin-bottom: 18px;
+	list-style: none;
+	float: left;
+	clear: both;
+}
+.footer-v-4 .widget.widget-latest-news .news-img {
+	width: 70px;
+	padding-right: 15px;
+	float: left;
+}
+.footer-v-4 .widget.widget-latest-news .news-img img {
+	height: 55px;
+}
+.footer-v-4 .widget.widget-latest-news .news-text {
+	width: 175px;
+	float: left;
+}
+.footer-v-4 .widget.widget-latest-news .news-text a {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+.footer-v-4 .widget.widget-latest-news .news-text p {
+	margin: 0px;
+	padding: 8px 0 0 0;
+	font-size: 12px;
+	color: #fff;
+}
+.footer-v-4 .widget.widget-contact-info p {
+	padding-top: 13px;
+	margin: 0px;
+}
+.footer-v-4 .widget.widget-contact-info ul {
+	padding: 30px 0 0 0;
+}
+.footer-v-4 .widget.widget-contact-info ul li {
+	display: block;
+	list-style: none;
+	margin-bottom: 12px;
+}
+.footer-v-4 .footer-top {
+	padding: 60px 0;
+}
+.footer-v-4 .footer-down {
+	background: #000;
+	padding: 25px 0;
+	text-align: center;
+	font-size: 13px;
+	color: #888888;
+}
+.footer-v-4 h2 {
+	font-family: 'Cabin Condensed', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	margin: 0px;
+}
+.footer-v-4 .footer-col-1 p {
+	font-size: 13px;
+	color: #aaaaaa;
+	padding-top: 13px;
+	margin: 0px;
+}
+.footer-v-4 .footer-col-1 ul {
+	margin: 0px;
+	padding: 25px 0 0 0;
+}
+.footer-v-4 .footer-col-1 ul li {
+	list-style: none;
+	display: block;
+	margin-bottom: 18px;
+}
+.footer-v-4 .footer-col-1 ul li.facebook {
+	background: url(../img/facebook.png) 0 0 no-repeat;
+	height: 33px;
+	padding-left: 45px;
+}
+.footer-v-4 .footer-col-1 ul li.twitter {
+	background: url(../img/twitter.png) 0 0 no-repeat;
+	height: 33px;
+	padding-left: 45px;
+}
+.footer-v-4 .footer-col-1 ul li a {
+	font-size: 13px;
+	color: #cccccc;
+	padding-top: 7px;
+	display: block;
+}
+.footer-v-4 .footer-col-2, .footer-v-4 .footer-col-3, .footer-v-4 .footer-col-4 {
+	border-left: 1px solid #333333;
+	padding: 0 22px;
+	min-height: 290px;
+}
+.footer-v-4 .footer-col-2 ul {
+	margin: 0px;
+	padding: 0 0 0 0;
+}
+.footer-v-4 .footer-col-2 ul li {
+	display: block;
+	padding: 13px 0 20px 0;
+	border-bottom: solid 1px #333333;
+}
+.footer-v-4 .footer-col-2 ul li p {
+	font-size: 13px;
+	color: #cccccc;
+	line-height: 20px;
+	margin: 0px;
+}
+.footer-v-4 .footer-col-2 ul li p a {
+	color: #2ea9ef;
+}
+.footer-v-4 .footer-col-2 ul li span {
+	padding-top: 7px;
+	color: #555555;
+	display: block;
+}
+.footer-v-4 .footer-col-2 ul li + li {
+	border: none;
+}
+.footer-v-4 .footer-col-3 ul {
+	margin: 0px;
+	padding: 13px 0 0 0;
+}
+.footer-v-4 .footer-col-3 ul li {
+	margin-bottom: 18px;
+	list-style: none;
+	float: left;
+	clear: both;
+}
+.footer-v-4 .news-img {
+	width: 70px;
+	padding-right: 15px;
+	float: left;
+}
+.footer-v-4 .news-img img {
+	height: 55px;
+}
+.footer-v-4 .news-text {
+	width: 175px;
+	float: left;
+}
+.footer-v-4 .news-text a {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+.footer-v-4 .news-text p {
+	margin: 0px;
+	padding: 8px 0 0 0;
+	font-size: 12px;
+	color: #fff;
+}
+.footer-v-4 .footer-col-4 p {
+	font-size: 13px;
+	color: #cccccc;
+	padding-top: 13px;
+	margin: 0px;
+}
+.footer-v-4 .footer-col-4 ul {
+	padding: 30px 0 0 0;
+}
+.footer-v-4 .footer-col-4 ul li {
+	display: block;
+	list-style: none;
+	margin-bottom: 12px;
+	font-size: 13px;
+	color: #cccccc;
+}

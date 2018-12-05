@@ -1,0 +1,56 @@
+<odoo>
+    <data>
+        <template id="tnt_custom_footer" inherit_id="website.layout">
+			<xpath expr="//footer/div[@class='container hidden-print']" position="replace">
+                <div class="footer-v1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="footer-address">
+                                    <h4>Tours and Travel</h4>
+                                    <p>Siddhartha Hwy, <span>Pokhara 33700</span></p>
+                                    <ul>
+                                        <li>E: <a href="#">info@tourstravel.com</a></li>
+                                        <li>T: <a href="#">015678902</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-social-links">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-5 col-xs-12">
+                                <div class="newsletter"> <b>Join our mailing list to receive details of
+                                        special offers</b>
+                                    <form>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address" />
+                                            <button type="submit" class="btn btn-default">Subscribe</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-md-offset-1 col-sm-3">
+                                <div class="footer-links">
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Plans</a></li>
+                                        <li><a href="#">ABOUT uS</a></li>
+                                        <li><a href="#">Our clients</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms of Use</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</xpath>
+            <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace"/>
+        </template>
+    </data>
+</odoo>

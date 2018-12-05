@@ -1,0 +1,47 @@
+<odoo>
+    <data>
+        <template id="tnt_custom_footer" inherit_id="website.layout">
+			<xpath expr="//footer/div[@class='container hidden-print']" position="replace">
+                <div class="footer-v-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-3">
+                                <div class="logo"> <img src="/tnt-footer-v3/static/src/img/Travelicious-logo.png" alt="" /> </div>
+                                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique libero vitae varius euismod.</p>
+                            </div>
+                            <div class="col-md-3 col-sm-3 recent-post">
+                                <h2>Recent Posts</h2>
+                                <ul>
+                                    <li><i class="fa fa-arrow-circle-right"></i>Integer et quam ut sem elementum mattis.</li>
+                                    <li><i class="fa fa-arrow-circle-right"></i>Aliquam feugiat dolor lectus, sit amet ornare arcu tempus vitae.
+                                    </li>
+                                    <li><i class="fa fa-arrow-circle-right"></i>Sed aliquet felis sed lacinia rutrum.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 contact">
+                                <h2>Contact Info</h2>
+                                <ul>
+                                    <li><span><i class="fa fa-phone"></i>9930 1234 5679</span></li>
+                                    <li><span><i class="fa fa-envelope"></i> info@tourstravel.com</span></li>
+                                    <li><span><i class="fa fa-print"></i>1234 9930 1234 5679</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-3 email">
+                                <h2>Newsletter</h2>
+                                <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem</p>
+                                <form class="form-inline" role="form">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="e-mail" />
+                                        <button type="submit" class="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</xpath>
+            <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace"/>
+        </template>
+    </data>
+</odoo>

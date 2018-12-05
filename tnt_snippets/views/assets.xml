@@ -17,6 +17,9 @@
 		        <script src="tnt_snippets/static/src/js/gallery.js" />
 		        <script src="tnt_snippets/static/src/js/all-snippets.js"/>
 		        <script src="tnt_snippets/static/src/js/package_carousel.js"/>
+						<script src="tnt_snippets/static/js/price_range_script.js"></script> 
+						<script src="tnt_snippets/static/js/script-1.js"></script>
+						<script src="tnt_snippets/static/js/script-2.js"></script>
 			</xpath>
 		</template>
   </data>

@@ -1,0 +1,67 @@
+<odoo>
+    <data>
+        <template id="tnt_custom_footer" inherit_id="website.layout">
+			<xpath expr="//footer/div[@class='container hidden-print']" position="replace">
+                <div class="container">
+                    <div class="middle-footer">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>About Company</h3>
+                                <ul>
+                                    <li><a href="about.php">About Us</a></li>
+                                    <li><a href="testimonal.php">Testimonial</a></li>
+                                    <li><a href="#">Legal Documents</a></li>
+                                    <li><a href="#">Responsibility</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>Destinations</h3>
+                                <ul>
+                                    <li><a href="#">Nepal</a></li>
+                                    <li><a href="#">India</a></li>
+                                    <li><a href="#">Bhutan</a></li>
+                                    <li><a href="#">Tibet</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>Other Activities</h3>
+                                <ul>
+                                    <li><a href="#">Jungle Safari</a></li>
+                                    <li><a href="#">Rafting in Nepal</a></li>
+                                    <li><a href="#">Paragliding</a></li>
+                                    <li><a href="#">Bungee Jump</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h3>Contact Info</h3>
+                                <ul>
+                                    <li>Tours &amp; Travels</li>
+                                    <li>Your Address</li>
+                                    <li>Phone: 123 123456</li>
+                                    <li>Mobile: 123 123456789/123456789</li>
+                                    <li>Email: demo@demo.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="associate text-center">
+                        <h3>We are associated with:</h3>
+                        <ul>
+                            <li><a href="#" title="NMA"><img src="/tnt-footer-v6/static/src/img/logo-nma.png" alt=""/></a></li>
+                            <li><a href="#" title="TAAN"><img src="/tnt-footer-v6/static/src/img/asso4.png" alt=""/></a></li>
+                            <li><a href="#" title="TAAN"><img src="/tnt-footer-v6/static/src/img/Emblem_of_Nepal.svg.png" alt=""/></a></li>
+                            <li><a href="#" title="PATA"><img src="/tnt-footer-v6/static/src/img/pata.png" alt=""/></a></li>
+                            <li><a href="#" title="KEEP"><img src="/tnt-footer-v6/static/src/img/keep.png" alt=""/></a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom-footer clearfix">
+                        <small>© 2017 Tours &amp; Travel. All Right Reserved.</small> 
+                        <small>Designed By: <a href="#">Nerku</a></small>
+                        <div id="google_translate_element"></div>
+                    </div>
+                </div>
+			</xpath>
+            <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace"/>
+        </template>
+    </data>
+</odoo>

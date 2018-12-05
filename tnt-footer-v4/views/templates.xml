@@ -1,0 +1,84 @@
+<odoo>
+    <data>
+        <template id="tnt_custom_footer" inherit_id="website.layout">
+			<xpath expr="//footer/div[@class='container hidden-print']" position="replace">
+                <div class="footer-v-4">
+                    <div class="footer-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 footer-col-1">
+                                    <h2>Copyright 2018 </h2>
+                                    <p>Proudly designed and crafted by<br />
+                                        <a href="#">Nerku Inc.</a></p>
+                                    <ul>
+                                        <li class="facebook"><a href="#">Follow us on Facebook</a></li>
+                                        <li class="twitter"><a href="#">Follow us on Twitter</a></li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-3 footer-col-2">
+                                    <h2>Latest Tweets</h2>
+                                    <ul>
+                                        <li>
+                                            <p><a href="#">@mizko</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a leo accumsan, faucibus
+                                                dolor eget.</p>
+                                            <span>3 minutes ago</span>
+                                        </li>
+                                        <li>
+                                            <p><a href="#">@mizko</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a leo accumsan, faucibus
+                                                dolor eget.</p>
+                                            <span>3 minutes ago</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-3 footer-col-3 clearfix">
+                                    <h2>Latest News</h2>
+                                    <ul>
+                                        <li>
+                                            <div class="news-img"><img src="/tnt-footer-v4/static/src/img/thumb2.jpg" alt="" /></div>
+                                            <div class="news-text">
+                                                <a href="#">Your blog entry title here.</a>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="news-img"><img src="/tnt-footer-v4/static/src/img/thumb2.jpg" alt="" /></div>
+                                            <div class="news-text">
+                                                <a href="#">Your blog entry title here.</a>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="news-img"><img src="/tnt-footer-v4/static/src/img/thumb2.jpg" alt="" /></div>
+                                            <div class="news-text">
+                                                <a href="#">Your blog entry title here.</a>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3 footer-col-4">
+                                    <h2>Contact Information</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <ul>
+                                        <li><span><i class="fa fa-envelope-o"> </i></span> sample@travelstour.com</li>
+                                        <li><span><i class="fa fa-phone"> </i></span> (02) 9999 9999</li>
+                                        <li><span><i class="fa fa-home"> </i></span> Mahendrapool-9, Pokhara Nepal.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-down">
+                        <div class="container">
+                            <p> Copyright 2016 Tours and Travel | All Rights Reserved</p>
+                            <div id="google_translate_element"></div>
+                        </div>
+                    </div>
+                </div>
+			</xpath>
+            <xpath expr="//footer/div[@class='container mt16 mb8']" position="replace"/>
+        </template>
+    </data>
+</odoo>
